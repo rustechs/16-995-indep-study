@@ -1,0 +1,19 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'quadruped-gait-writeup.blg'
+[53] biber:313> INFO - === Sun Aug 12, 2018, 16:52:59
+[90] Biber.pm:371> INFO - Reading 'quadruped-gait-writeup.bcf'
+[205] Biber.pm:854> INFO - Using all citekeys in bib section 0
+[232] Biber.pm:3981> INFO - Processing section 0
+[251] Biber.pm:4154> INFO - Looking for bibtex format file 'quadruped-gait-writeup.bib' for section 0
+[253] bibtex.pm:1468> INFO - LaTeX decoding ...
+[290] bibtex.pm:1294> INFO - Found BibTeX data source 'quadruped-gait-writeup.bib'
+[318] Utils.pm:169> WARN - month field 'nov' in entry 'Geyer_2006' is not an integer - this will probably not sort properly.
+[346] Utils.pm:169> WARN - month field 'oct' in entry 'albertwuhartmutgeyer2013' is not an integer - this will probably not sort properly.
+[464] Utils.pm:169> WARN - month field 'apr' in entry 'Alexander_1990' is not an integer - this will probably not sort properly.
+[532] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[532] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[532] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[532] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[571] bbl.pm:617> INFO - Writing 'quadruped-gait-writeup.bbl' with encoding 'UTF-8'
+[588] bbl.pm:720> INFO - Output to quadruped-gait-writeup.bbl
+[588] Biber.pm:110> INFO - WARNINGS: 3

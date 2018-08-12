@@ -1,0 +1,2671 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Created by="" on="11/28/16||20:06:47" using="Simscape Multibody Link Version 4.8" from="SolidWorks 23.1.1"/>
+	<ModelUnits mass="kilogram" length="millimeter"/>
+	<DataUnits mass="kilogram" length="meter"/>
+	<RootAssembly name="minitaur" uid="minitaur" version="961">
+		<AssemblyFile name="minitaur.SLDASM" type="SolidWorks Assembly"/>
+		<InstanceTree>
+			<Instance name="minitaur-leg-linkages-1" uid="minitaur-leg-linkages-1" entityUid="minitaur-leg-linkages">
+				<Transform>
+					<Rotation>0.033261749794998678 0.080559167662471343 -0.99619469809174599 -0.38018353983821529 -0.92079549984901043 -0.087155742747654114 -0.92431278906907866 0.38163577919705188 1.1102230246251565e-016</Rotation>
+					<Translation>0.13235930147334055 0.030901182541886889 -0.19999999999981741</Translation>
+				</Transform>
+				<Instance name="minitaur-leg-lower-link-toe-1" uid="minitaur-leg-lower-link-toe-1" entityUid="minitaur-leg-lower-link-toe*:*Default">
+					<Transform>
+						<Rotation>0.78801440083935992 -0.61565680705226078 4.6957233112869373e-015 0.61565680705226078 0.78801440083935981 1.8554481523280068e-015 -4.8426168767644684e-015 1.4288341565825337e-015 1</Rotation>
+						<Translation>-0.10000000000000253 -1.7902346272080649e-015 0.010849999999999832</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-upper-link-3" uid="minitaur-leg-upper-link-3" entityUid="minitaur-leg-upper-link*:*Default">
+					<Transform>
+						<Rotation>0.64088796169638662 0.76763443158358324 -7.4734944129888227e-016 -0.76763443158358313 0.64088796169638673 3.7366296523778486e-015 3.3433991460060907e-015 -1.8279764974818389e-015 1</Rotation>
+						<Translation>-1.7583157152500917e-013 -6.5739080845617082e-014 0.032549999999841289</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-upper-link-2" uid="minitaur-leg-upper-link-2" entityUid="minitaur-leg-upper-link*:*Default">
+					<Transform>
+						<Rotation>-1 1.8318679906315087e-015 -6.5372010148788789e-016 -1.8318679906315083e-015 -1 -7.5013726110707171e-016 -6.5372010148788927e-016 -7.5013726110707053e-016 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-lower-link-1" uid="minitaur-leg-lower-link-1" entityUid="minitaur-leg-lower-link*:*Default">
+					<Transform>
+						<Rotation>-0.032429580008833836 -0.99947402284424125 3.8287006907589139e-016 0.99947402284424125 -0.032429580008833891 -9.8483646182636139e-016 9.8936527004785704e-016 3.5793038906345976e-016 1.0000000000000002</Rotation>
+						<Translation>0.06408879616963456 -0.076763443158378755 0.021699999999999997</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="2517T32-2" uid="2517T32-2" entityUid="2517T32*:*Default">
+					<Transform>
+						<Rotation>-3.3336437448127185e-015 -0.78801440083936147 -0.61565680705225878 -6.7434981091088609e-016 -0.61565680705225889 0.78801440083936136 -1 3.038504461748589e-015 1.5121008834294196e-015</Rotation>
+						<Translation>0.082762764106315195 0.14278817706626362 0.01402500000004013</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-joint-placeholder-sim-1" uid="minitaur-leg-joint-placeholder-sim-1" entityUid="minitaur-leg-joint-placeholder-sim*:*Default">
+					<Transform>
+						<Rotation>2.9051634586916133e-015 0.64088796169638806 -0.76763443158358202 -2.3049704357803775e-015 -0.76763443158358202 -0.64088796169638806 -1 3.6278937960662867e-015 -7.532920347716503e-016</Rotation>
+						<Translation>0.064088796169436441 -0.076763443158535991 0.038899999999832027</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-joint-placeholder-sim-2" uid="minitaur-leg-joint-placeholder-sim-2" entityUid="minitaur-leg-joint-placeholder-sim*:*Default">
+					<Transform>
+						<Rotation>3.6413601404865549e-015 0.61565680705226622 0.78801440083935559 2.2814738815783423e-015 -0.7880144008393557 0.61565680705226622 1 -4.5045011613161429e-016 -4.2875053644518894e-015</Rotation>
+						<Translation>0.05760288016799936 0.12313136141034933 0.010850000000147186</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-joint-placeholder-sim-3" uid="minitaur-leg-joint-placeholder-sim-3" entityUid="minitaur-leg-joint-placeholder-sim*:*Default">
+					<Transform>
+						<Rotation>-1.9974875276704906e-016 -1 5.1625370645069779e-015 -5.9932643283172841e-016 -5.1625370645069779e-015 -1 1.0000000000000004 -1.7493642211829066e-016 -5.5584823179766833e-016</Rotation>
+						<Translation>-0.10000000306671299 -6.1222890229695182e-009 -2.1651292980706671e-009</Translation>
+					</Transform>
+				</Instance>
+			</Instance>
+			<Instance name="minitaur-motor-module-2" uid="minitaur-motor-module-2" entityUid="minitaur-motor-module">
+				<Transform>
+					<Rotation>1.2583363170892703e-012 -0.087155742747654336 -0.99619469809174588 -1.4381357216208812e-011 0.9961946980917461 -0.087155742747654322 1.0000000000000002 1.4436313255927757e-011 1.2976474740648093e-016</Rotation>
+					<Translation>0.066809690338823724 0.025166334669998871 -0.26032499999981717</Translation>
+				</Transform>
+				<Instance name="DYS-BLDC-86x10-BE8108-12-3" uid="DYS-BLDC-86x10-BE8108-12-3" entityUid="DYS-BLDC-86x10-BE8108-12">
+					<Transform>
+						<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+						<Translation>0.06032499999999999 0 0</Translation>
+					</Transform>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-stator-1" uid="DYS-BLDC-86x10-BE8108-12-stator-1" entityUid="DYS-BLDC-86x10-BE8108-12-stator*:*Default">
+						<Transform>
+							<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-rotor-1" uid="DYS-BLDC-86x10-BE8108-12-rotor-1" entityUid="DYS-BLDC-86x10-BE8108-12-rotor*:*Default">
+						<Transform>
+							<Rotation>0.95479656362710219 8.7902805037764208e-016 -0.29726002436566773 -4.3961860753198268e-016 0.99999999999999989 1.5512527430258425e-015 0.29726002436566773 -1.3322676295393761e-015 0.95479656362710208</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+				</Instance>
+				<Instance name="minitaur-motor-driver-board-1" uid="minitaur-motor-driver-board-1" entityUid="minitaur-motor-driver-board*:*Default">
+					<Transform>
+						<Rotation>-1 1.5645216692805552e-015 7.862470075145005e-016 -1.564521669280555e-015 -1 -1.6653345369564532e-016 7.862470075145002e-016 -1.6653345369564656e-016 1</Rotation>
+						<Translation>0.12065000000000003 0 -0.0031750000000000805</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-motor-driver-cover-1" uid="minitaur-motor-driver-cover-1" entityUid="minitaur-motor-driver-cover*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-motor-module-plate-1" uid="minitaur-motor-module-plate-1" entityUid="minitaur-motor-module-plate*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+			</Instance>
+			<Instance name="minitaur-chassis-1" uid="minitaur-chassis-1" entityUid="minitaur-chassis" rigid="true">
+				<Transform>
+					<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+					<Translation>0 0 0</Translation>
+				</Transform>
+				<Instance name="minitaur-battery-holder-1" uid="minitaur-battery-holder-1" entityUid="minitaur-battery-holder*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0.0049999999999999706 -0.056250000000008578</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-chassis-bottom-panel-1" uid="minitaur-chassis-bottom-panel-1" entityUid="minitaur-chassis-bottom-panel*:*Default">
+					<Transform>
+						<Rotation>-1 0 0 0 -1 0 0 2.2204460492503136e-016 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-chassis-middle-plate-plastic-cover-1" uid="minitaur-chassis-middle-plate-plastic-cover-1" entityUid="minitaur-chassis-middle-plate-plastic-cover*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0.13599999999999521</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-chassis-middle-plate-plastic-cover-2" uid="minitaur-chassis-middle-plate-plastic-cover-2" entityUid="minitaur-chassis-middle-plate-plastic-cover*:*Default">
+					<Transform>
+						<Rotation>1 0 -6.6089231306340987e-010 0 1 4.5771882746544324e-013 6.6089231306340987e-010 -4.5771882746544324e-013 1</Rotation>
+						<Translation>0 0 -0.14400000000000859</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-chassis-middle-plate-plastic-cover-cutouts-1" uid="minitaur-chassis-middle-plate-plastic-cover-cutouts-1" entityUid="minitaur-chassis-middle-plate-plastic-cover-cutouts*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0.077331879253775798 -0.051929594744425968 0.14699999999999522</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-middle-plate-1" uid="minitaur-middle-plate-1" entityUid="minitaur-middle-plate*:*Default">
+					<Transform>
+						<Rotation>1 0 -6.6089231306340987e-010 0 1 4.5771882746544324e-013 6.6089231306340987e-010 -4.5771882746544324e-013 1</Rotation>
+						<Translation>7.2698132675880231e-012 -5.068516762660474e-015 -0.1550000000000086</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-chassis-top-panel-1" uid="minitaur-chassis-top-panel-1" entityUid="minitaur-chassis-top-panel*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0.074714602356880933 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-legs-side-1" uid="minitaur-legs-side-1" entityUid="minitaur-legs-side" rigid="true">
+					<Transform>
+						<Rotation>1.2583008286701391e-012 -0.087155742747654363 -0.99619469809174588 -1.4382314777144823e-011 0.99619469809174588 -0.087155742747654363 1 1.4437253870600979e-011 0</Rotation>
+						<Translation>0.073135526672033879 0.025719773632702447 1.8284755752828422e-013</Translation>
+					</Transform>
+					<Instance name="minitaur-side-plate-1" uid="minitaur-side-plate-1" entityUid="minitaur-side-plate*:*Default">
+						<Transform>
+							<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="minitaur-side-plate-outer-1" uid="minitaur-side-plate-outer-1" entityUid="minitaur-side-plate-outer*:*Default">
+						<Transform>
+							<Rotation>-1 -1.8918005310772709e-013 0 -1.8918005310773032e-013 1 -1.8318679906315619e-015 0 -1.8318679906313474e-015 -1</Rotation>
+							<Translation>0 0 -0.080000000000000446</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="minitaur-side-panel-1" uid="minitaur-side-panel-1" entityUid="minitaur-side-panel*:*Default">
+						<Transform>
+							<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+							<Translation>0 0 0.0063499999999999945</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="minitaur-side-panel-outer-1" uid="minitaur-side-panel-outer-1" entityUid="minitaur-side-panel-outer*:*Default">
+						<Transform>
+							<Rotation>-1 -1.8923556425895996e-013 0 -1.8923556425896158e-013 1 0 0 0 -1</Rotation>
+							<Translation>0 0 -0.08635000000000044</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="minitaur-side-support-plate-1" uid="minitaur-side-support-plate-1" entityUid="minitaur-side-support-plate*:*Default">
+						<Transform>
+							<Rotation>0 -9.6670721913706584e-016 -1.0000000000000002 2.3592239273231816e-016 1.0000000000000002 -9.6670721914029701e-016 1 -2.4980018054049727e-016 0</Rotation>
+							<Translation>-0.070999999999999938 0 -0.040000000000000091</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="minitaur-side-support-plate-2" uid="minitaur-side-support-plate-2" entityUid="minitaur-side-support-plate*:*Default">
+						<Transform>
+							<Rotation>0 -6.7116801430029673e-016 1.0000000000000002 -4.0245584642678219e-016 1.0000000000000002 6.711680143035279e-016 -1 -4.1633363423427075e-016 0</Rotation>
+							<Translation>0.071000000000000008 0 -0.040000000000000105</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="minitaur-side-top-panel-1" uid="minitaur-side-top-panel-1" entityUid="minitaur-side-top-panel*:*Default">
+						<Transform>
+							<Rotation>1.4162539115996044e-016 -9.6670721913706584e-016 -1.0000000000000002 2.4980018054286785e-016 1.0000000000000002 -9.6670721913868142e-016 1 -2.6367796834831173e-016 1.4162539725224358e-016</Rotation>
+							<Translation>0 0.025000000000000175 -0.040000000000000105</Translation>
+						</Transform>
+					</Instance>
+				</Instance>
+				<Instance name="minitaur-legs-side-2" uid="minitaur-legs-side-2" entityUid="minitaur-legs-side" rigid="true">
+					<Transform>
+						<Rotation>-1.2584655539882306e-012 0.087155742747654308 0.99619469809174588 -1.4383494395531216e-011 0.99619469809174621 -0.087155742747654336 -1 -1.4438561457552623e-011 0</Rotation>
+						<Translation>-0.0731355270449216 0.025719773661267833 -1.9249879468219433e-013</Translation>
+					</Transform>
+					<Instance name="minitaur-side-plate-1" uid="minitaur-side-plate-1" entityUid="minitaur-side-plate*:*Default">
+						<Transform>
+							<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="minitaur-side-plate-outer-1" uid="minitaur-side-plate-outer-1" entityUid="minitaur-side-plate-outer*:*Default">
+						<Transform>
+							<Rotation>-1 -1.8929815371962781e-013 0 -1.8929815371962781e-013 1 -1.8873791418615296e-015 0 -1.8873791418615335e-015 -1</Rotation>
+							<Translation>0 0 -0.080000000000000418</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="minitaur-side-panel-1" uid="minitaur-side-panel-1" entityUid="minitaur-side-panel*:*Default">
+						<Transform>
+							<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+							<Translation>0 0 0.0063500000000000084</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="minitaur-side-panel-outer-1" uid="minitaur-side-panel-outer-1" entityUid="minitaur-side-panel-outer*:*Default">
+						<Transform>
+							<Rotation>-1 -1.8935366487085906e-013 0 -1.8935366487085906e-013 1 0 0 0 -1</Rotation>
+							<Translation>0 0 -0.08635000000000044</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="minitaur-side-support-plate-1" uid="minitaur-side-support-plate-1" entityUid="minitaur-side-support-plate*:*Default">
+						<Transform>
+							<Rotation>0 -8.4860660724119605e-016 -1 1.8041124150214492e-016 1 -8.4860660724119605e-016 1 -1.8041124150214492e-016 0</Rotation>
+							<Translation>-0.070999999999999938 0 -0.040000000000000063</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="minitaur-side-support-plate-2" uid="minitaur-side-support-plate-2" entityUid="minitaur-side-support-plate*:*Default">
+						<Transform>
+							<Rotation>0 -5.5306740240442734e-016 1 -3.3306690738879455e-016 1.0000000000000002 6.7116801430191231e-016 -1 -3.8857805861755725e-016 0</Rotation>
+							<Translation>0.071000000000000008 0 -0.040000000000000091</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="minitaur-side-top-panel-1" uid="minitaur-side-top-panel-1" entityUid="minitaur-side-top-panel*:*Default">
+						<Transform>
+							<Rotation>1.5545790271713194e-016 -8.4860660724119605e-016 -1 1.9428902931269485e-016 1 -8.4860660724119605e-016 1 -1.9428902931269473e-016 1.5545790271713211e-016</Rotation>
+							<Translation>0 0.025000000000000189 -0.040000000000000091</Translation>
+						</Transform>
+					</Instance>
+				</Instance>
+				<Instance name="minitaur-battery-placeholder-1" uid="minitaur-battery-placeholder-1" entityUid="minitaur-battery-placeholder*:*Default">
+					<Transform>
+						<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+						<Translation>0 0.018999999999999972 -0.056250000000008578</Translation>
+					</Transform>
+				</Instance>
+			</Instance>
+			<Instance name="minitaur-motor-module-10" uid="minitaur-motor-module-10" entityUid="minitaur-motor-module">
+				<Transform>
+					<Rotation>1.2416161848660676e-012 0.087155742747652656 0.99619469809174599 -1.4193785036198389e-011 -0.99619469809174599 0.087155742747652656 1 -1.4247987379714306e-011 1.7841680191089882e-016</Rotation>
+					<Translation>0.15915693885193327 0.033245672022657428 -0.26032499999981717</Translation>
+				</Transform>
+				<Instance name="minitaur-motor-driver-cover-1" uid="minitaur-motor-driver-cover-1" entityUid="minitaur-motor-driver-cover*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-motor-module-plate-1" uid="minitaur-motor-module-plate-1" entityUid="minitaur-motor-module-plate*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-motor-driver-board-1" uid="minitaur-motor-driver-board-1" entityUid="minitaur-motor-driver-board*:*Default">
+					<Transform>
+						<Rotation>-1 1.5543122344752192e-015 7.8591415231293882e-016 -1.5543122344752192e-015 -1 -1.804112415153277e-016 7.8591415231316838e-016 -1.8041124149904559e-016 1</Rotation>
+						<Translation>0.12065000000000001 0 -0.0031750000000000944</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="DYS-BLDC-86x10-BE8108-12-3" uid="DYS-BLDC-86x10-BE8108-12-3" entityUid="DYS-BLDC-86x10-BE8108-12">
+					<Transform>
+						<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+						<Translation>0.060325000000000017 0 0</Translation>
+					</Transform>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-rotor-1" uid="DYS-BLDC-86x10-BE8108-12-rotor-1" entityUid="DYS-BLDC-86x10-BE8108-12-rotor*:*Default">
+						<Transform>
+							<Rotation>0.38373059366140355 -5.5112419652030802e-016 0.92344508850730633 1.4303370979251759e-015 0.99999999999999989 0 -0.92344508850730644 1.3198986035904725e-015 0.3837305936614035</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-stator-1" uid="DYS-BLDC-86x10-BE8108-12-stator-1" entityUid="DYS-BLDC-86x10-BE8108-12-stator*:*Default">
+						<Transform>
+							<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+				</Instance>
+			</Instance>
+			<Instance name="minitaur-motor-module-19" uid="minitaur-motor-module-19" entityUid="minitaur-motor-module">
+				<Transform>
+					<Rotation>1.2589332679964914e-012 -0.087155742747653531 0.99619469809174599 1.4382684768547944e-011 -0.99619469809174599 -0.087155742747653531 1 1.4437677574794339e-011 -6.0907312126026011e-016</Rotation>
+					<Translation>-0.066809690712366657 0.0251663346910759 -0.26032500000019254</Translation>
+				</Transform>
+				<Instance name="minitaur-motor-module-plate-1" uid="minitaur-motor-module-plate-1" entityUid="minitaur-motor-module-plate*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="DYS-BLDC-86x10-BE8108-12-3" uid="DYS-BLDC-86x10-BE8108-12-3" entityUid="DYS-BLDC-86x10-BE8108-12">
+					<Transform>
+						<Rotation>1 -6.9606271183537031e-016 8.8646080527574048e-016 -8.8646080527412489e-016 -6.3837823916072098e-016 1.0000000000000002 -6.9606271183458589e-016 -1.0000000000000002 -6.3837823916825913e-016</Rotation>
+						<Translation>0.060325011556396912 8.5426768957341803e-009 -1.1183415499216309e-008</Translation>
+					</Transform>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-stator-1" uid="DYS-BLDC-86x10-BE8108-12-stator-1" entityUid="DYS-BLDC-86x10-BE8108-12-stator*:*Default">
+						<Transform>
+							<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-rotor-1" uid="DYS-BLDC-86x10-BE8108-12-rotor-1" entityUid="DYS-BLDC-86x10-BE8108-12-rotor*:*Default">
+						<Transform>
+							<Rotation>0.057269156608429912 -1.3816610806483082e-015 -0.99835877504099657 -1.9201165379661107e-015 1 -1.4940766512582349e-015 0.99835877504099657 2.0025297045057115e-015 0.057269156608429912</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+				</Instance>
+				<Instance name="minitaur-motor-driver-board-1" uid="minitaur-motor-driver-board-1" entityUid="minitaur-motor-driver-board*:*Default">
+					<Transform>
+						<Rotation>-1 5.446499919262791e-016 0 -5.4464999192789469e-016 -1.0000000000000002 0 0 0 1.0000000000000002</Rotation>
+						<Translation>0.12065001150293178 8.4086825384577235e-009 -0.0031750111358006816</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-motor-driver-cover-1" uid="minitaur-motor-driver-cover-1" entityUid="minitaur-motor-driver-cover*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+			</Instance>
+			<Instance name="minitaur-motor-module-11" uid="minitaur-motor-module-11" entityUid="minitaur-motor-module">
+				<Transform>
+					<Rotation>-1.257843708775612e-012 0.087155742747653892 -0.9961946980917461 1.4381363072736293e-011 -0.99619469809174588 -0.087155742747653767 -1 -1.4436235411066396e-011 -3.5360132717743865e-016</Rotation>
+					<Translation>0.066809690339478894 0.025166334662510843 0.26032500000018288</Translation>
+				</Transform>
+				<Instance name="minitaur-motor-driver-cover-1" uid="minitaur-motor-driver-cover-1" entityUid="minitaur-motor-driver-cover*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-motor-driver-board-1" uid="minitaur-motor-driver-board-1" entityUid="minitaur-motor-driver-board*:*Default">
+					<Transform>
+						<Rotation>-1 0 2.5331634374289628e-015 0 -1 -1.5265566589106335e-016 2.5331634374289628e-015 -1.5265566589106355e-016 1</Rotation>
+						<Translation>0.12064999993471498 6.7183120178171407e-011 -0.0031750000623511909</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="DYS-BLDC-86x10-BE8108-12-3" uid="DYS-BLDC-86x10-BE8108-12-3" entityUid="DYS-BLDC-86x10-BE8108-12">
+					<Transform>
+						<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+						<Translation>0.06032499999999999 0 0</Translation>
+					</Transform>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-rotor-1" uid="DYS-BLDC-86x10-BE8108-12-rotor-1" entityUid="DYS-BLDC-86x10-BE8108-12-rotor*:*Default">
+						<Transform>
+							<Rotation>-0.83349464462710776 -5.7200417987488534e-016 -0.55252753540247324 -1.8639211262512607e-015 1 1.7764980638437771e-015 0.55252753540247324 2.510569368476425e-015 -0.83349464462710776</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-stator-1" uid="DYS-BLDC-86x10-BE8108-12-stator-1" entityUid="DYS-BLDC-86x10-BE8108-12-stator*:*Default">
+						<Transform>
+							<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+				</Instance>
+				<Instance name="minitaur-motor-module-plate-1" uid="minitaur-motor-module-plate-1" entityUid="minitaur-motor-module-plate*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+			</Instance>
+			<Instance name="minitaur-motor-module-18" uid="minitaur-motor-module-18" entityUid="minitaur-motor-module">
+				<Transform>
+					<Rotation>-1.239175526885683e-012 -0.087155742747652407 0.99619469809174621 1.4195090109391429e-011 0.99619469809174621 0.087155742747652434 -1 1.4249036601728514e-011 2.7458923757181377e-015</Rotation>
+					<Translation>0.15915693885257964 0.033245672015267326 0.26032500000018288</Translation>
+				</Transform>
+				<Instance name="DYS-BLDC-86x10-BE8108-12-3" uid="DYS-BLDC-86x10-BE8108-12-3" entityUid="DYS-BLDC-86x10-BE8108-12">
+					<Transform>
+						<Rotation>1 -7.4078353267502894e-016 7.3962075571975762e-016 -7.3962075571975811e-016 -6.5225602699616864e-016 1 -7.4078353267502845e-016 -1 -6.5225602699616923e-016</Rotation>
+						<Translation>0.06032499999999999 0 0</Translation>
+					</Transform>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-stator-1" uid="DYS-BLDC-86x10-BE8108-12-stator-1" entityUid="DYS-BLDC-86x10-BE8108-12-stator*:*Default">
+						<Transform>
+							<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-rotor-1" uid="DYS-BLDC-86x10-BE8108-12-rotor-1" entityUid="DYS-BLDC-86x10-BE8108-12-rotor*:*Default">
+						<Transform>
+							<Rotation>-0.20151343046673911 -2.9511422828787207e-016 -0.97948575147447992 1.0491586442843114e-016 1 -3.2287982092965489e-016 0.97948575147447992 -1.678282146552977e-016 -0.20151343046673911</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+				</Instance>
+				<Instance name="minitaur-motor-driver-cover-1" uid="minitaur-motor-driver-cover-1" entityUid="minitaur-motor-driver-cover*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-motor-module-plate-1" uid="minitaur-motor-module-plate-1" entityUid="minitaur-motor-module-plate*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-motor-driver-board-1" uid="minitaur-motor-driver-board-1" entityUid="minitaur-motor-driver-board*:*Default">
+					<Transform>
+						<Rotation>-1 4.0587952538803865e-016 0 -4.058795253880386e-016 -1 0 0 0 1</Rotation>
+						<Translation>0.12065000000000001 0 -0.0031750000000000389</Translation>
+					</Transform>
+				</Instance>
+			</Instance>
+			<Instance name="minitaur-motor-module-21" uid="minitaur-motor-module-21" entityUid="minitaur-motor-module">
+				<Transform>
+					<Rotation>-1.2576688794508022e-012 0.08715574274765521 0.99619469809174588 -1.4383133863552551e-011 0.99619469809174577 -0.087155742747655335 -1 -1.4438014762134039e-011 6.896452529988316e-016</Rotation>
+					<Translation>-0.066809690711711431 0.025166334698564594 0.26032499999980752</Translation>
+				</Transform>
+				<Instance name="DYS-BLDC-86x10-BE8108-12-3" uid="DYS-BLDC-86x10-BE8108-12-3" entityUid="DYS-BLDC-86x10-BE8108-12">
+					<Transform>
+						<Rotation>1 -9.1592495131491832e-016 7.9743253733828742e-016 -7.9743253734474977e-016 -3.6082248300644289e-016 0.99999999999999989 -9.1592495131398904e-016 -1 -4.7184478547564922e-016</Rotation>
+						<Translation>0.060324999999999962 0 0</Translation>
+					</Transform>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-stator-1" uid="DYS-BLDC-86x10-BE8108-12-stator-1" entityUid="DYS-BLDC-86x10-BE8108-12-stator*:*Default">
+						<Transform>
+							<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-rotor-1" uid="DYS-BLDC-86x10-BE8108-12-rotor-1" entityUid="DYS-BLDC-86x10-BE8108-12-rotor*:*Default">
+						<Transform>
+							<Rotation>0.89967754148092915 -1.1921777326026848e-015 -0.43655506108030762 1.8364560450740762e-015 1 1.0563509062583745e-015 0.4365550610803075 -1.7486012638051024e-015 0.89967754148092927</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+				</Instance>
+				<Instance name="minitaur-motor-driver-board-1" uid="minitaur-motor-driver-board-1" entityUid="minitaur-motor-driver-board*:*Default">
+					<Transform>
+						<Rotation>-1 6.0428157547099901e-016 0 -6.042815754596899e-016 -0.99999999999999989 -2.2065682614538267e-015 0 -1.9706458686996963e-015 1.0000000000000002</Rotation>
+						<Translation>0.12064999999999998 0 -0.0031750000000000667</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-motor-driver-cover-1" uid="minitaur-motor-driver-cover-1" entityUid="minitaur-motor-driver-cover*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-motor-module-plate-1" uid="minitaur-motor-module-plate-1" entityUid="minitaur-motor-module-plate*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+			</Instance>
+			<Instance name="minitaur-leg-linkages-9" uid="minitaur-leg-linkages-9" entityUid="minitaur-leg-linkages">
+				<Transform>
+					<Rotation>-0.046694655536352402 0.073591661472184294 0.99619469809174577 -0.5337223550399538 0.84115653967422155 -0.087155742747653642 -0.84436962100430091 -0.53576108772945907 -6.8695049648681561e-016</Rotation>
+					<Translation>-0.13235930184622721 0.030901182570454901 0.19999999999980747</Translation>
+				</Transform>
+				<Instance name="minitaur-leg-joint-placeholder-sim-1" uid="minitaur-leg-joint-placeholder-sim-1" entityUid="minitaur-leg-joint-placeholder-sim*:*Default">
+					<Transform>
+						<Rotation>-8.4481607099187259e-016 0.5257711703604242 0.85062604969388844 -3.0807872968467371e-016 0.85062604969388844 -0.5257711703604242 -1 -7.0623972721107719e-016 -5.5664364291626459e-016</Rotation>
+						<Translation>0.052577117036011006 0.085062604969295907 0.038900000000023097</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-lower-link-toe-1" uid="minitaur-leg-lower-link-toe-1" entityUid="minitaur-leg-lower-link-toe*:*Default">
+					<Transform>
+						<Rotation>0.8194971528512186 0.57308325439568231 -1.6327717922056473e-016 -0.57308325439568231 0.8194971528512186 -7.8283973735712414e-016 -2.9068860880457843e-016 7.3810352868405158e-016 0.99999999999999978</Rotation>
+						<Translation>-0.10000000000002021 -1.2305434449189079e-013 0.010850000000017859</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-lower-link-1" uid="minitaur-leg-lower-link-1" entityUid="minitaur-leg-lower-link*:*Default">
+					<Transform>
+						<Rotation>0.056611567671006668 0.99839627924278196 2.7874987870939779e-016 -0.99839627924278185 0.056611567671006613 -7.3054171970511001e-016 -7.37069975003666e-016 -2.3272196297835342e-016 1</Rotation>
+						<Translation>0.05257711703602172 0.085062604969311922 0.021700000000020592</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-upper-link-2" uid="minitaur-leg-upper-link-2" entityUid="minitaur-leg-upper-link*:*Default">
+					<Transform>
+						<Rotation>-1 -1.1102230246251578e-016 2.2487156248594985e-016 1.1102230246251568e-016 -1 -2.9865240617499613e-016 2.248715624859499e-016 -2.9865240617499608e-016 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-upper-link-3" uid="minitaur-leg-upper-link-3" entityUid="minitaur-leg-upper-link*:*Default">
+					<Transform>
+						<Rotation>0.52577117036042353 -0.850626049693889 2.9131672578375024e-016 0.85062604969388889 0.52577117036042353 1.1834022979546076e-015 -1.1513840116936535e-015 -3.831584427909167e-016 0.99999999999999989</Rotation>
+						<Translation>-3.0253577421035516e-014 -9.3355878583167851e-014 0.03255000000002152</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="2517T32-2" uid="2517T32-2" entityUid="2517T32*:*Default">
+					<Transform>
+						<Rotation>-2.8294213256839299e-016 -0.81949715285121871 0.57308325439568197 4.9530626012618219e-016 0.57308325439568208 0.8194971528512186 -0.99999999999999989 5.1572199553711701e-016 2.4375267182484223e-016</Rotation>
+						<Translation>0.090064502213097572 -0.1329141694934714 0.014025000000018592</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-joint-placeholder-sim-2" uid="minitaur-leg-joint-placeholder-sim-2" entityUid="minitaur-leg-joint-placeholder-sim*:*Default">
+					<Transform>
+						<Rotation>-3.7362091609601896e-016 -0.57308325439568131 0.81949715285121938 -1.1837014673354825e-016 -0.81949715285121938 -0.57308325439568131 1 -3.111198887373262e-016 2.383453280729957e-016</Rotation>
+						<Translation>0.063899430570221044 -0.11461665087925958 0.010850000000019525</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-joint-placeholder-sim-3" uid="minitaur-leg-joint-placeholder-sim-3" entityUid="minitaur-leg-joint-placeholder-sim*:*Default">
+					<Transform>
+						<Rotation>-3.0111424937225407e-016 -0.99999999999999989 -4.9960036108132044e-016 5.9320399043128872e-016 4.4408920985006262e-016 -0.99999999999999989 0.99999999999999978 -3.1636216201881396e-016 6.0340380133294341e-016</Rotation>
+						<Translation>-0.099999999999985517 -9.9906194428456274e-014 7.6161299489285739e-014</Translation>
+					</Transform>
+				</Instance>
+			</Instance>
+			<Instance name="minitaur-motor-module-22" uid="minitaur-motor-module-22" entityUid="minitaur-motor-module">
+				<Transform>
+					<Rotation>-1.2437334148684975e-012 -0.087155742747652767 -0.9961946980917461 -1.4195901398839084e-011 -0.9961946980917461 0.087155742747652767 -1 1.4250267632576197e-011 1.7056242505295262e-015</Rotation>
+					<Translation>-0.15915693922482085 0.033245672051223141 0.26032499999980752</Translation>
+				</Transform>
+				<Instance name="minitaur-motor-module-plate-1" uid="minitaur-motor-module-plate-1" entityUid="minitaur-motor-module-plate*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-motor-driver-cover-1" uid="minitaur-motor-driver-cover-1" entityUid="minitaur-motor-driver-cover*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-motor-driver-board-1" uid="minitaur-motor-driver-board-1" entityUid="minitaur-motor-driver-board*:*Default">
+					<Transform>
+						<Rotation>-0.99999999999999989 -2.5542762436049299e-015 0 2.5542762436049295e-015 -1 0 0 0 0.99999999999999989</Rotation>
+						<Translation>0.12065000000000031 -1.8630930131990908e-015 -0.0031749999999995948</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="DYS-BLDC-86x10-BE8108-12-3" uid="DYS-BLDC-86x10-BE8108-12-3" entityUid="DYS-BLDC-86x10-BE8108-12">
+					<Transform>
+						<Rotation>1 0 9.1822208549145855e-016 -9.056369520523676e-016 0 1 1.0144511091839778e-016 -1 0</Rotation>
+						<Translation>0.060325000000000045 0 0</Translation>
+					</Transform>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-stator-1" uid="DYS-BLDC-86x10-BE8108-12-stator-1" entityUid="DYS-BLDC-86x10-BE8108-12-stator*:*Default">
+						<Transform>
+							<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-rotor-1" uid="DYS-BLDC-86x10-BE8108-12-rotor-1" entityUid="DYS-BLDC-86x10-BE8108-12-rotor*:*Default">
+						<Transform>
+							<Rotation>0.84436962101193536 0 -0.53576108771742725 0 1 1.1431000231760952e-016 0.53576108771742714 -1.2490009029700956e-016 0.84436962101193513</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+				</Instance>
+			</Instance>
+			<Instance name="minitaur-leg-linkages-6" uid="minitaur-leg-linkages-6" entityUid="minitaur-leg-linkages">
+				<Transform>
+					<Rotation>0.047945202391711191 0.072783109726865441 -0.99619469809174599 -0.54801617100375033 -0.83191475093575129 -0.087155742747653087 -0.83509253013423967 0.55010950374811185 -1.9845236565174673e-015</Rotation>
+					<Translation>0.1323593014738457 0.030901182536111134 0.20000000000018892</Translation>
+				</Transform>
+				<Instance name="minitaur-leg-upper-link-3" uid="minitaur-leg-upper-link-3" entityUid="minitaur-leg-upper-link*:*Default">
+					<Transform>
+						<Rotation>0.39209450331428897 0.91992494284627413 -1.022570014107962e-015 -0.91992494284627435 0.39209450331428886 1.4794428273366899e-015 1.7373565666741732e-015 3.7485899890102656e-016 1</Rotation>
+						<Translation>-2.1142723682920916e-010 -8.1124974793400639e-010 0.032549999993477491</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-upper-link-2" uid="minitaur-leg-upper-link-2" entityUid="minitaur-leg-upper-link*:*Default">
+					<Transform>
+						<Rotation>-0.99999999999999989 3.8857805861880479e-016 -1.0395939096394161e-016 -3.8857805861880479e-016 -0.99999999999999989 0 -1.02948646957205e-016 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-lower-link-toe-1" uid="minitaur-leg-lower-link-toe-1" entityUid="minitaur-leg-lower-link-toe*:*Default">
+					<Transform>
+						<Rotation>0.84908388125064072 -0.52825804546674704 0 0.52825804546674715 0.84908388125064083 -3.0519917605780317e-016 1.7819535387459916e-016 2.5150180793478415e-016 1.0000000000000002</Rotation>
+						<Translation>-0.099999999704516035 4.6479097237650535e-009 0.010849999097117702</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-lower-link-1" uid="minitaur-leg-lower-link-1" entityUid="minitaur-leg-lower-link*:*Default">
+					<Transform>
+						<Rotation>0.15303662959319458 -0.98822051689021073 4.4660699839997701e-016 0.98822051689021051 0.15303662959319458 4.8861636522830552e-016 -5.4766822363254424e-016 3.6706368377891256e-016 0.99999999999999989</Rotation>
+						<Translation>0.039209450331067791 -0.091992490267506333 0.021699998957142669</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="2517T32-2" uid="2517T32-2" entityUid="2517T32*:*Default">
+					<Transform>
+						<Rotation>9.3197881820576883e-016 -0.84908388125064072 -0.52825804546674671 7.142289802866373e-016 -0.52825804546674682 0.84908388125064072 -1 -1.1496405004216112e-015 1.1272392985664037e-016</Rotation>
+						<Translation>0.096926499608016387 0.12251794422899075 0.014024999382553957</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-joint-placeholder-sim-1" uid="minitaur-leg-joint-placeholder-sim-1" entityUid="minitaur-leg-joint-placeholder-sim*:*Default">
+					<Transform>
+						<Rotation>1.130173045631128e-015 0.39209450331428913 -0.91992494284627435 -1.6886082381624017e-015 -0.91992494284627435 -0.39209450331428913 -1 1.9965274759672296e-015 -3.7758036597391145e-016</Rotation>
+						<Translation>0.039209450120286288 -0.091992495095830296 0.038899999993757636</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-joint-placeholder-sim-2" uid="minitaur-leg-joint-placeholder-sim-2" entityUid="minitaur-leg-joint-placeholder-sim*:*Default">
+					<Transform>
+						<Rotation>-9.1492112303961979e-016 0.52825804546674593 0.84908388125064149 2.2406604233324371e-016 -0.84908388125064149 0.52825804546674593 1 6.7356530909393081e-016 6.5848008861024766e-016</Rotation>
+						<Translation>0.069816776545392548 0.10565161374161679 0.010849999096799609</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-joint-placeholder-sim-3" uid="minitaur-leg-joint-placeholder-sim-3" entityUid="minitaur-leg-joint-placeholder-sim*:*Default">
+					<Transform>
+						<Rotation>-1.1311079463962017e-016 -1 5.5511151231257847e-016 -1.4281655933462408e-016 -5.5511151231257847e-016 -1 1 -1.1311079463962022e-016 -1.42816559334624e-016</Rotation>
+						<Translation>-0.10000000018568492 -7.8718444262992904e-010 1.3641310303569298e-011</Translation>
+					</Transform>
+				</Instance>
+			</Instance>
+			<Instance name="minitaur-leg-linkages-8" uid="minitaur-leg-linkages-8" entityUid="minitaur-leg-linkages">
+				<Transform>
+					<Rotation>-0.037391562715438476 0.07872734297302586 0.99619469809174599 -0.42738751751948723 0.899857647839165 -0.08715574274765267 -0.90329495786604919 -0.42902006840446577 1.6782165263866212e-015</Rotation>
+					<Translation>-0.13235930184672431 0.03090118256477669 -0.20000000000019208</Translation>
+				</Transform>
+				<Instance name="minitaur-leg-upper-link-2" uid="minitaur-leg-upper-link-2" entityUid="minitaur-leg-upper-link*:*Default">
+					<Transform>
+						<Rotation>-1 -1.6653345369377348e-016 0 2.2204460492503131e-016 -0.99999999999999989 -3.3389498246541513e-016 0 -3.7635666786944848e-016 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-lower-link-toe-1" uid="minitaur-leg-lower-link-toe-1" entityUid="minitaur-leg-lower-link-toe*:*Default">
+					<Transform>
+						<Rotation>0.849748305260283 0.52718859785401007 1.6421736766039654e-016 -0.52718859785400995 0.84974830526028278 9.4715033676138042e-016 3.5429415735616317e-016 -8.7669236124348265e-016 1.0000000000000002</Rotation>
+						<Translation>-0.10000000015714493 1.3196263526360497e-010 0.010850000026294507</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-joint-placeholder-sim-2" uid="minitaur-leg-joint-placeholder-sim-2" entityUid="minitaur-leg-joint-placeholder-sim*:*Default">
+					<Transform>
+						<Rotation>4.5162002758667917e-016 -0.52718859785400962 0.84974830526028289 1.0149586050640633e-015 -0.849748305260283 -0.52718859785400951 0.99999999999999989 1.1005482836687395e-015 1.5131125082020211e-016</Rotation>
+						<Translation>0.069949660894914917 -0.10543771943884384 0.010850000026287471</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-joint-placeholder-sim-3" uid="minitaur-leg-joint-placeholder-sim-3" entityUid="minitaur-leg-joint-placeholder-sim*:*Default">
+					<Transform>
+						<Rotation>-6.8511461314794329e-016 -1 -1.6653345369377348e-016 0 2.2204460492503131e-016 -0.99999999999999978 1 -6.7676594714217416e-016 0</Rotation>
+						<Translation>-0.10000000006313919 -1.9316534483060366e-011 -2.984817948359364e-011</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-upper-link-3" uid="minitaur-leg-upper-link-3" entityUid="minitaur-leg-upper-link*:*Default">
+					<Transform>
+						<Rotation>0.38876522628099819 -0.92133685416067257 0 0.92133685416067235 0.38876522628099791 -7.8595171354751614e-016 7.0407733618896631e-016 4.0900343725831956e-016 1</Rotation>
+						<Translation>-5.011479842220723e-010 8.7031082340871535e-010 0.032550000031481702</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-lower-link-1" uid="minitaur-leg-lower-link-1" entityUid="minitaur-leg-lower-link*:*Default">
+					<Transform>
+						<Rotation>0.15536569211978246 0.98785702493434802 1.1469919019060023e-016 -0.98785702493434802 0.15536569211978246 8.0867446718040283e-016 7.8103443421966055e-016 -2.3894666907714488e-016 1</Rotation>
+						<Translation>0.038876522480138037 0.092133685918542679 0.021700000026018726</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-leg-joint-placeholder-sim-1" uid="minitaur-leg-joint-placeholder-sim-1" entityUid="minitaur-leg-joint-placeholder-sim*:*Default">
+					<Transform>
+						<Rotation>0 0.3887652262809983 0.92133685416067246 -1.6409793725742322e-016 0.92133685416067235 -0.38876522628099819 -1 -1.7022329570334467e-016 0</Rotation>
+						<Translation>0.038876522126764873 0.092133686286367006 0.03890000003154101</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="2517T32-2" uid="2517T32-2" entityUid="2517T32*:*Default">
+					<Transform>
+						<Rotation>-1.6498836240547676e-016 -0.84974830526028289 0.52718859785400984 -1.0849038524410733e-015 0.52718859785400995 0.84974830526028278 -0.99999999999999989 -4.3175035943309995e-016 -1.0088751934209267e-015</Rotation>
+						<Translation>0.097080597481202652 -0.12226990413149669 0.014025000026429674</Translation>
+					</Transform>
+				</Instance>
+			</Instance>
+			<Instance name="minitaur-motor-module-20" uid="minitaur-motor-module-20" entityUid="minitaur-motor-module">
+				<Transform>
+					<Rotation>1.2397500560867858e-012 0.087155742747651657 -0.99619469809174621 1.4196220587958663e-011 0.99619469809174621 0.087155742747651629 1.0000000000000002 -1.4250246815894485e-011 -2.2884913384577331e-015</Rotation>
+					<Translation>-0.1591569392254675 0.033245672043832386 -0.26032500000019254</Translation>
+				</Transform>
+				<Instance name="minitaur-motor-module-plate-1" uid="minitaur-motor-module-plate-1" entityUid="minitaur-motor-module-plate*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-motor-driver-cover-1" uid="minitaur-motor-driver-cover-1" entityUid="minitaur-motor-driver-cover*:*Default">
+					<Transform>
+						<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+						<Translation>0 0 0</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="minitaur-motor-driver-board-1" uid="minitaur-motor-driver-board-1" entityUid="minitaur-motor-driver-board*:*Default">
+					<Transform>
+						<Rotation>-1 2.3660349675181247e-016 2.5342116028893982e-015 -2.3660349675181474e-016 -1 -8.8817841973273654e-016 2.5342116028893978e-015 -8.8817841973273714e-016 1</Rotation>
+						<Translation>0.12065000000946216 -1.4658066427308825e-013 -0.0031750000061106787</Translation>
+					</Transform>
+				</Instance>
+				<Instance name="DYS-BLDC-86x10-BE8108-12-3" uid="DYS-BLDC-86x10-BE8108-12-3" entityUid="DYS-BLDC-86x10-BE8108-12">
+					<Transform>
+						<Rotation>1.0000000000000002 -6.9606271184097162e-016 8.1595600021556638e-016 -8.1175226970289626e-016 -6.1062266356597607e-016 1 -7.3483732985888226e-016 -1 -6.3837823912685528e-016</Rotation>
+						<Translation>0.060325000000000045 0 0</Translation>
+					</Transform>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-rotor-1" uid="DYS-BLDC-86x10-BE8108-12-rotor-1" entityUid="DYS-BLDC-86x10-BE8108-12-rotor*:*Default">
+						<Transform>
+							<Rotation>-0.94208898974783561 0 -0.33536299049820961 0 0.99999999999999989 0 0.33536299049820961 0 -0.94208898974783561</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+					<Instance name="DYS-BLDC-86x10-BE8108-12-stator-1" uid="DYS-BLDC-86x10-BE8108-12-stator-1" entityUid="DYS-BLDC-86x10-BE8108-12-stator*:*Default">
+						<Transform>
+							<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+							<Translation>0 0 0</Translation>
+						</Transform>
+					</Instance>
+				</Instance>
+			</Instance>
+		</InstanceTree>
+		<Constraints>
+			<Coincident name="Coincident34">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-1</Uid>
+						<Uid>minitaur-side-plate-1</Uid>
+					</InstancePath>
+					<Position>-0.13548927047718001 -0.21709656482696704 0.0063499999999999807</Position>
+					<Axis>0 0 1</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-2</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1 0</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Concentric name="Concentric15">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-1</Uid>
+						<Uid>minitaur-side-plate-1</Uid>
+					</InstancePath>
+					<Position>-0.20000000000000001 0 0.0063499999999999945</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-2</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 -1 0</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Coincident name="Coincident35">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-1</Uid>
+						<Uid>minitaur-side-plate-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-2</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 0 1.0000000000000002</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Concentric name="Concentric16">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-1</Uid>
+						<Uid>minitaur-side-plate-outer-1</Uid>
+					</InstancePath>
+					<Position>0.20000000000000001 0 0.0063499999999999668</Position>
+					<Axis>0 0 -1.0000000000000002</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-10</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 -1 0</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Coincident name="Coincident36">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-1</Uid>
+						<Uid>minitaur-side-plate-outer-1</Uid>
+					</InstancePath>
+					<Position>-0.13548927047718001 -0.21709656482696701 0.0063499999999999945</Position>
+					<Axis>0 0 1.0000000000000002</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-10</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1 0</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Coincident name="Coincident37">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-1</Uid>
+						<Uid>minitaur-side-plate-outer-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-10</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 0 1</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Coincident name="Coincident41">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 0 1</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 0 1</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Coincident name="Coincident42">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1 0</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Coincident name="Coincident43">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>1 0 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>1 0 0</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Coincident name="Coincident44">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-1</Uid>
+						<Uid>minitaur-side-plate-1</Uid>
+					</InstancePath>
+					<Position>-0.13548927047718001 -0.21709656482696704 0.0063499999999999807</Position>
+					<Axis>0 0 1</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-11</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1.0000000000000002 1.3877787807293096e-016</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Concentric name="Concentric22">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-1</Uid>
+						<Uid>minitaur-side-plate-1</Uid>
+					</InstancePath>
+					<Position>0.20000000000000001 0 0.0063499999999999945</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-11</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 -1.0000000000000002 -1.3877787807293096e-016</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Coincident name="Coincident46">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-1</Uid>
+						<Uid>minitaur-side-plate-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-11</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1.5265566588074542e-016 1</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Concentric name="Concentric23">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-1</Uid>
+						<Uid>minitaur-side-plate-outer-1</Uid>
+					</InstancePath>
+					<Position>-0.20000000000000001 0 0.0063499999999999668</Position>
+					<Axis>0 0 -1.0000000000000002</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-18</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 -1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Coincident name="Coincident47">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-1</Uid>
+						<Uid>minitaur-side-plate-outer-1</Uid>
+					</InstancePath>
+					<Position>-0.13548927047718001 -0.21709656482696701 0.0063499999999999945</Position>
+					<Axis>0 0 1.0000000000000002</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-18</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Coincident name="Coincident48">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-1</Uid>
+						<Uid>minitaur-side-plate-outer-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-18</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 0 1.0000000000000002</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Concentric name="Concentric31">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-2</Uid>
+						<Uid>minitaur-side-plate-1</Uid>
+					</InstancePath>
+					<Position>0.20000000000000004 0 0.0063500000000000084</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-19</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 -1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Coincident name="Coincident50">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-2</Uid>
+						<Uid>minitaur-side-plate-1</Uid>
+					</InstancePath>
+					<Position>-0.13548927047718007 -0.21709656482696721 0.0063500000000000084</Position>
+					<Axis>0 0 1</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-19</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Coincident name="Coincident51">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-2</Uid>
+						<Uid>minitaur-side-plate-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>1.1810061189748498e-016 1.0000000000000004 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-19</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 0 1.0000000000000002</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Concentric name="Concentric32">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-2</Uid>
+						<Uid>minitaur-side-plate-outer-1</Uid>
+					</InstancePath>
+					<Position>-0.20000000000000001 0 0.0063499999999999668</Position>
+					<Axis>0 0 -1.0000000000000002</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-20</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 -1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Coincident name="Coincident53">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-2</Uid>
+						<Uid>minitaur-side-plate-outer-1</Uid>
+					</InstancePath>
+					<Position>-0.13548927047717998 -0.21709656482696707 0.0063499999999999945</Position>
+					<Axis>0 0 1.0000000000000002</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-20</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Coincident name="Coincident54">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-2</Uid>
+						<Uid>minitaur-side-plate-outer-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>-1.1810061189910056e-016 1.0000000000000004 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-20</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 0 1.0000000000000002</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Coincident name="Coincident58">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-1</Uid>
+						<Uid>minitaur-leg-upper-link-2</Uid>
+					</InstancePath>
+					<Position>0.044499999999999956 -0.10516816438329396 0</Position>
+					<Axis>0 1.3291788495165208e-016 -1.0000000000000002</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-10</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0.021725000000000001 0.026900000000000007 0</Position>
+					<Axis>0 1 0</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Concentric name="Concentric36">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-1</Uid>
+						<Uid>minitaur-leg-upper-link-2</Uid>
+					</InstancePath>
+					<Position>0.012374368670764579 0.012374368670764593 0.0063499999999999945</Position>
+					<Axis>0 1.3291788495165208e-016 -1.0000000000000002</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-10</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0.017500000000000002 0.030425456019666203 0</Position>
+					<Axis>0 -1 0</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Concentric name="Concentric37">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-1</Uid>
+						<Uid>minitaur-leg-upper-link-2</Uid>
+					</InstancePath>
+					<Position>-0.012374368670764607 -0.012374368670764593 0.0063499999999999668</Position>
+					<Axis>0 1.3291788495165208e-016 -1.0000000000000002</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-10</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>-0.017499999999999988 0.030425456019666203 0</Position>
+					<Axis>0 -1 0</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Concentric name="Concentric38">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-1</Uid>
+						<Uid>minitaur-leg-upper-link-3</Uid>
+					</InstancePath>
+					<Position>0.012374368670764607 0.012374368670764593 0.0063499999999999945</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-2</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>-0.017499999999999988 0.030425456019666189 0</Position>
+					<Axis>0 -1 0</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Concentric name="Concentric39">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-1</Uid>
+						<Uid>minitaur-leg-upper-link-3</Uid>
+					</InstancePath>
+					<Position>-0.012374368670764579 -0.012374368670764607 0.0063500000000000084</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-2</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0.017499999999999988 0.030425456019666189 0</Position>
+					<Axis>0 -1 0</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Coincident name="Coincident59">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-18</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0.021724999999999994 0.026899999999999979 0</Position>
+					<Axis>0 1 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-6</Uid>
+						<Uid>minitaur-leg-upper-link-2</Uid>
+					</InstancePath>
+					<Position>0.044500000000000012 -0.105168164383294 0</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Concentric name="Concentric40">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-18</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0 0.030425456019666175 0.017500000000000016</Position>
+					<Axis>0 -1 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-6</Uid>
+						<Uid>minitaur-leg-upper-link-2</Uid>
+					</InstancePath>
+					<Position>0.012374368670764579 -0.012374368670764607 0.0063500000000000223</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Concentric name="Concentric41">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-18</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0 0.030425456019666203 -0.017499999999999988</Position>
+					<Axis>0 -1 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-6</Uid>
+						<Uid>minitaur-leg-upper-link-2</Uid>
+					</InstancePath>
+					<Position>-0.012374368670764579 0.012374368670764593 0.0063499999999999945</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Concentric name="Concentric42">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-11</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>-0.012374368670764579 0.030425456019666217 -0.012374368670764593</Position>
+					<Axis>0 -1.0000000000000002 1.3139003871292062e-016</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-6</Uid>
+						<Uid>minitaur-leg-upper-link-3</Uid>
+					</InstancePath>
+					<Position>0.012374368670764579 0.012374368670764579 0.0063499999999999945</Position>
+					<Axis>0 0 -1.0000000000000002</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Concentric name="Concentric43">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-11</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0.012374368670764607 0.03042545601966623 0.012374368670764579</Position>
+					<Axis>0 -1.0000000000000002 1.3139003871292062e-016</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-6</Uid>
+						<Uid>minitaur-leg-upper-link-3</Uid>
+					</InstancePath>
+					<Position>-0.012374368670764607 -0.012374368670764607 0.0063500000000000084</Position>
+					<Axis>0 0 -1.0000000000000002</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Coincident name="Coincident61">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-19</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0.021725000000000012 0.026900000000000021 0</Position>
+					<Axis>0 1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-8</Uid>
+						<Uid>minitaur-leg-upper-link-3</Uid>
+					</InstancePath>
+					<Position>0.044500000000000012 -0.10516816438329402 0.0063499999999999945</Position>
+					<Axis>0 0 1</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Concentric name="Concentric44">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-19</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0 0.030425456019666203 -0.017499999999999988</Position>
+					<Axis>0 -1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-8</Uid>
+						<Uid>minitaur-leg-upper-link-3</Uid>
+					</InstancePath>
+					<Position>-0.012374368670764607 0.012374368670764621 0.0063499999999999945</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Concentric name="Concentric45">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-19</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0.017500000000000009 0.030425456019666217 0</Position>
+					<Axis>0 -1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-8</Uid>
+						<Uid>minitaur-leg-upper-link-3</Uid>
+					</InstancePath>
+					<Position>-0.012374368670764607 -0.012374368670764579 0.0063499999999999807</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Concentric name="Concentric46">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-20</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0 0.030425456019666175 -0.017499999999999988</Position>
+					<Axis>0 -1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-8</Uid>
+						<Uid>minitaur-leg-upper-link-2</Uid>
+					</InstancePath>
+					<Position>0.012374368670764635 -0.012374368670764579 0.0063499999999999668</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Concentric name="Concentric47">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-20</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0 0.030425456019666175 0.017500000000000002</Position>
+					<Axis>0 -1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-8</Uid>
+						<Uid>minitaur-leg-upper-link-2</Uid>
+					</InstancePath>
+					<Position>-0.012374368670764579 0.012374368670764621 0.0063499999999999945</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Concentric name="Concentric48">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-2</Uid>
+						<Uid>minitaur-side-plate-1</Uid>
+					</InstancePath>
+					<Position>-0.19999999999999998 0 0.0063499999999999945</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-21</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 -1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Coincident name="Coincident62">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-2</Uid>
+						<Uid>minitaur-side-plate-1</Uid>
+					</InstancePath>
+					<Position>-0.13548927047718007 -0.21709656482696721 0.0063500000000000084</Position>
+					<Axis>0 0 1</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-21</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Coincident name="Coincident63">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-2</Uid>
+						<Uid>minitaur-side-plate-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>1.1810061189748498e-016 1.0000000000000004 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-21</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 0 1.0000000000000002</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Concentric name="Concentric49">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-2</Uid>
+						<Uid>minitaur-side-plate-outer-1</Uid>
+					</InstancePath>
+					<Position>0.20000000000000001 0 0.0063500000000000223</Position>
+					<Axis>0 0 -1.0000000000000002</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-22</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 -1 0</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Coincident name="Coincident64">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-2</Uid>
+						<Uid>minitaur-side-plate-outer-1</Uid>
+					</InstancePath>
+					<Position>-0.13548927047717998 -0.21709656482696707 0.0063499999999999945</Position>
+					<Axis>0 0 1.0000000000000002</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-22</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 1 0</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Coincident name="Coincident65">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-chassis-1</Uid>
+						<Uid>minitaur-legs-side-2</Uid>
+						<Uid>minitaur-side-plate-outer-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>-1.1810061189910056e-016 1.0000000000000004 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-22</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+					</InstancePath>
+					<Position>0 0 0</Position>
+					<Axis>0 0 1</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Coincident name="Coincident66">
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-9</Uid>
+						<Uid>minitaur-leg-upper-link-3</Uid>
+					</InstancePath>
+					<Position>0.044499999999999984 -0.10516816438329402 0.0063499999999999945</Position>
+					<Axis>0 0 1</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="plane">
+					<InstancePath>
+						<Uid>minitaur-motor-module-21</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0.021724999999999967 0.026900000000000007 0</Position>
+					<Axis>0 1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+			</Coincident>
+			<Concentric name="Concentric50">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-21</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0.012374368670764607 0.030425456019666217 -0.012374368670764607</Position>
+					<Axis>0 -1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-9</Uid>
+						<Uid>minitaur-leg-upper-link-3</Uid>
+					</InstancePath>
+					<Position>0.012374368670764579 -0.012374368670764607 0.0063499999999999945</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Concentric name="Concentric51">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-21</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>-0.012374368670764607 0.030425456019666217 0.012374368670764607</Position>
+					<Axis>0 -1.0000000000000002 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-9</Uid>
+						<Uid>minitaur-leg-upper-link-3</Uid>
+					</InstancePath>
+					<Position>-0.012374368670764607 0.012374368670764593 0.0063499999999999945</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Concentric name="Concentric52">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-22</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>-0.012374368670764579 0.030425456019666203 0.012374368670764593</Position>
+					<Axis>0 -1 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-9</Uid>
+						<Uid>minitaur-leg-upper-link-2</Uid>
+					</InstancePath>
+					<Position>0.012374368670764579 0.012374368670764579 0.0063499999999999668</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+			<Concentric name="Concentric53">
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-motor-module-22</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+						<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+					</InstancePath>
+					<Position>0.012374368670764607 0.030425456019666175 -0.012374368670764593</Position>
+					<Axis>0 -1 0</Axis>
+				</ConstraintGeometry>
+				<ConstraintGeometry geomType="cylinder">
+					<InstancePath>
+						<Uid>minitaur-leg-linkages-9</Uid>
+						<Uid>minitaur-leg-upper-link-2</Uid>
+					</InstancePath>
+					<Position>-0.012374368670764579 -0.012374368670764593 0.0063499999999999668</Position>
+					<Axis>0 0 -1</Axis>
+				</ConstraintGeometry>
+			</Concentric>
+		</Constraints>
+	</RootAssembly>
+	<Assemblies>
+		<Assembly name="minitaur-leg-linkages" uid="minitaur-leg-linkages" version="213">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<AssemblyFile name="minitaur-leg-linkages.sldasm" type="SolidWorks Assembly"/>
+			<Constraints>
+				<Concentric name="Concentric36">
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-leg-upper-link-3</Uid>
+						</InstancePath>
+						<Position>0.10000000000000001 0 -0.011313708498984699</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-leg-lower-link-1</Uid>
+						</InstancePath>
+						<Position>0 0 0.0063500000000000049</Position>
+						<Axis>0 0 -1.0000000000000002</Axis>
+					</ConstraintGeometry>
+				</Concentric>
+				<Concentric name="Concentric37">
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-leg-lower-link-toe-1</Uid>
+						</InstancePath>
+						<Position>0 0 0.0063499999999999963</Position>
+						<Axis>0 0 -0.99999999999999989</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-leg-upper-link-2</Uid>
+						</InstancePath>
+						<Position>0.10000000000000006 0 -0.011313708498984701</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+				</Concentric>
+				<Distance name="Distance1">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-lower-link-1</Uid>
+						</InstancePath>
+						<Position>0.10000000000000003 -0.16861029088411203 0.0063500000000000049</Position>
+						<Axis>0 0 1.0000000000000002</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-upper-link-3</Uid>
+						</InstancePath>
+						<Position>0.044499999999999998 -0.105168164383294 0</Position>
+						<Axis>0 0 -1</Axis>
+					</ConstraintGeometry>
+				</Distance>
+				<Concentric name="Concentric38">
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-leg-lower-link-toe-1</Uid>
+						</InstancePath>
+						<Position>0.20000000000000001 0 0</Position>
+						<Axis>0 0 0.99999999999999989</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-leg-lower-link-1</Uid>
+						</InstancePath>
+						<Position>0.20000000000000007 0 0.0063500000000000049</Position>
+						<Axis>0 0 -1.0000000000000002</Axis>
+					</ConstraintGeometry>
+				</Concentric>
+				<Distance name="Distance2">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-lower-link-1</Uid>
+						</InstancePath>
+						<Position>0.10000000000000003 -0.168610290884112 0</Position>
+						<Axis>0 0 -1.0000000000000002</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-lower-link-toe-1</Uid>
+						</InstancePath>
+						<Position>0.11196410161513798 -0.18717626660361802 0.0063499999999999963</Position>
+						<Axis>0 0 0.99999999999999989</Axis>
+					</ConstraintGeometry>
+				</Distance>
+				<Distance name="Distance3">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-upper-link-2</Uid>
+						</InstancePath>
+						<Position>0.044500000000000012 -0.10516816438329406 0.0063499999999999997</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-lower-link-toe-1</Uid>
+						</InstancePath>
+						<Position>0.11196410161513798 -0.18717626660361802 0</Position>
+						<Axis>0 0 -0.99999999999999989</Axis>
+					</ConstraintGeometry>
+				</Distance>
+				<Concentric name="Concentric39">
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-leg-upper-link-3</Uid>
+						</InstancePath>
+						<Position>0.10000000000000001 0 -0.011313708498984699</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-leg-joint-placeholder-sim-1</Uid>
+						</InstancePath>
+						<Position>0.0063500000000000015 0 0</Position>
+						<Axis>-1 0 0</Axis>
+					</ConstraintGeometry>
+				</Concentric>
+				<Coincident name="Coincident37">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-upper-link-3</Uid>
+						</InstancePath>
+						<Position>0.044499999999999998 -0.105168164383294 0</Position>
+						<Axis>0 0 -1</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-joint-placeholder-sim-1</Uid>
+						</InstancePath>
+						<Position>0.0063500000000000015 0 0</Position>
+						<Axis>-1 0 0</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Concentric name="Concentric41">
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-leg-lower-link-toe-1</Uid>
+						</InstancePath>
+						<Position>0.20000000000000001 0 0</Position>
+						<Axis>0 0 0.99999999999999989</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-leg-joint-placeholder-sim-2</Uid>
+						</InstancePath>
+						<Position>0.0063500000000000015 0 0</Position>
+						<Axis>-1 0 0</Axis>
+					</ConstraintGeometry>
+				</Concentric>
+				<Coincident name="Coincident39">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-lower-link-toe-1</Uid>
+						</InstancePath>
+						<Position>0.11196410161513798 -0.18717626660361802 0.0063499999999999963</Position>
+						<Axis>0 0 0.99999999999999989</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-joint-placeholder-sim-2</Uid>
+						</InstancePath>
+						<Position>0.0063500000000000015 0 0</Position>
+						<Axis>-1 0 0</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Concentric name="Concentric42">
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-leg-upper-link-2</Uid>
+						</InstancePath>
+						<Position>0.10000000000000006 0 -0.011313708498984701</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-leg-joint-placeholder-sim-3</Uid>
+						</InstancePath>
+						<Position>0.0063499999999999997 0 0</Position>
+						<Axis>-1 0 0</Axis>
+					</ConstraintGeometry>
+				</Concentric>
+				<Coincident name="Coincident40">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-upper-link-2</Uid>
+						</InstancePath>
+						<Position>0.044500000000000012 -0.10516816438329406 0.0063499999999999997</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-joint-placeholder-sim-3</Uid>
+						</InstancePath>
+						<Position>0.0063499999999999997 0 0</Position>
+						<Axis>-1 0 0</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Coincident name="Coincident41">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-lower-link-toe-1</Uid>
+						</InstancePath>
+						<Position>0.23192820323027502 -0.18717626660361797 0.0063499999999999963</Position>
+						<Axis>1.0000000000000002 0 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>2517T32-2</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 1.0000000000000002 0</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Distance name="Distance4">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>2517T32-2</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>1 0 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-lower-link-toe-1</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 0 0.99999999999999989</Axis>
+					</ConstraintGeometry>
+				</Distance>
+				<Distance name="Distance5">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>2517T32-2</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 0 1.0000000000000002</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-lower-link-toe-1</Uid>
+						</InstancePath>
+						<Position>0.11196410161513801 0.0039999999999999897 0.0063499999999999963</Position>
+						<Axis>-1.3877787807814403e-016 1 0</Axis>
+					</ConstraintGeometry>
+				</Distance>
+				<Coincident name="Coincident43">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-upper-link-3</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 1 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-joint-placeholder-sim-1</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 0 1.0000000000000002</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Coincident name="Coincident45">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-upper-link-2</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 1.0000000000000002 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-joint-placeholder-sim-3</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 0 1.0000000000000002</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Coincident name="Coincident46">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-lower-link-toe-1</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 1.0000000000000002 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-joint-placeholder-sim-2</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 1.0000000000000002 0</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Coincident name="Coincident47">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-upper-link-2</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-linkages</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Coincident name="Coincident48">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-upper-link-2</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 1.0000000000000002 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-linkages</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 1 0</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Coincident name="Coincident49">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-upper-link-2</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>1.0000000000000002 0 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-leg-linkages</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>1 0 0</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+			</Constraints>
+		</Assembly>
+		<Assembly name="minitaur-motor-module" uid="minitaur-motor-module" version="152">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<AssemblyFile name="minitaur-motor-module.sldasm" type="SolidWorks Assembly"/>
+			<Constraints>
+				<Coincident name="Coincident5">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-motor-module-plate-1</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 1 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-motor-module</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 1 0</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Coincident name="Coincident6">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-motor-driver-board-1</Uid>
+						</InstancePath>
+						<Position>0.018371537181375602 -0.15689877298130694 0.009524999999999997</Position>
+						<Axis>0 0 -0.99999999999999989</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-motor-driver-cover-1</Uid>
+						</InstancePath>
+						<Position>0.015325 -0.031 0.0063499999999999997</Position>
+						<Axis>0 0 -1</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Concentric name="Concentric2">
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-motor-driver-board-1</Uid>
+						</InstancePath>
+						<Position>0.045325000000000004 0 0</Position>
+						<Axis>0 0 0.99999999999999989</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-motor-driver-cover-1</Uid>
+						</InstancePath>
+						<Position>0.075325000000000003 0 0.033850000000000005</Position>
+						<Axis>0 0 -1</Axis>
+					</ConstraintGeometry>
+				</Concentric>
+				<Concentric name="Concentric3">
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-motor-driver-board-1</Uid>
+						</InstancePath>
+						<Position>0.075325000000000003 0 -0.21044141729696494</Position>
+						<Axis>0 0 0.99999999999999989</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-motor-driver-cover-1</Uid>
+						</InstancePath>
+						<Position>0.045325000000000004 0 0.033850000000000005</Position>
+						<Axis>0 0 -1</Axis>
+					</ConstraintGeometry>
+				</Concentric>
+				<Coincident name="Coincident11">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-motor-driver-cover-1</Uid>
+						</InstancePath>
+						<Position>0.015325 -0.031 0.0063499999999999997</Position>
+						<Axis>0 0 -1</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-motor-module-plate-1</Uid>
+						</InstancePath>
+						<Position>0.11059848581727201 -0.39219228783902399 0.0063499999999999997</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Coincident name="Coincident12">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-motor-module-plate-1</Uid>
+						</InstancePath>
+						<Position>0.11059848581727201 -0.39219228783902399 0</Position>
+						<Axis>0 0 -1</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+							<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+						</InstancePath>
+						<Position>0.021725000000000001 0 0</Position>
+						<Axis>-1.7339736706800636e-016 -1.0000000000000002 -1.86836881491335e-016</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Concentric name="Concentric10">
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-motor-module-plate-1</Uid>
+						</InstancePath>
+						<Position>0.060325000000000004 0 0</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+							<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>1.7339736706800636e-016 1.0000000000000002 1.86836881491335e-016</Axis>
+					</ConstraintGeometry>
+				</Concentric>
+				<Coincident name="Coincident13">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-motor-module-plate-1</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-motor-module</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Coincident name="Coincident14">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-motor-module-plate-1</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 1 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-motor-module</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 1 0</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Coincident name="Coincident15">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-motor-module-plate-1</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>1 0 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-motor-module</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>1 0 0</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Concentric name="Concentric11">
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-motor-driver-cover-1</Uid>
+						</InstancePath>
+						<Position>0.060325000000000004 -0.014999999999999999 0.033850000000000005</Position>
+						<Axis>0 0 -1</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-motor-module-plate-1</Uid>
+						</InstancePath>
+						<Position>0.060325000000000004 -0.014999999999999999 0</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+				</Concentric>
+				<Concentric name="Concentric12">
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-motor-driver-cover-1</Uid>
+						</InstancePath>
+						<Position>0.060325000000000004 0.014999999999999999 0.033850000000000005</Position>
+						<Axis>0 0 -1</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>minitaur-motor-module-plate-1</Uid>
+						</InstancePath>
+						<Position>0.060325000000000004 0.014999999999999999 0</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+				</Concentric>
+				<Coincident name="Coincident17">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>minitaur-motor-module-plate-1</Uid>
+						</InstancePath>
+						<Position>0.060324999999999976 0 0</Position>
+						<Axis>-1 8.9534114889125606e-016 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>DYS-BLDC-86x10-BE8108-12-3</Uid>
+							<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>1 1.7339736706800645e-016 -1.9428902930940232e-016</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+			</Constraints>
+		</Assembly>
+		<Assembly name="DYS-BLDC-86x10-BE8108-12" uid="DYS-BLDC-86x10-BE8108-12" version="194">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<AssemblyFile name="DYS-BLDC-86x10-BE8108-12.SLDASM" type="SolidWorks Assembly"/>
+			<Constraints>
+				<Coincident name="Coincident1">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>DYS-BLDC-86x10-BE8108-12</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 0 1</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Coincident name="Coincident2">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 1 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>DYS-BLDC-86x10-BE8108-12</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 1 0</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Coincident name="Coincident3">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>1 0 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>DYS-BLDC-86x10-BE8108-12</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>1 0 0</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+				<Concentric name="Concentric1">
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 -1 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="cylinder">
+						<InstancePath>
+							<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+						</InstancePath>
+						<Position>0 0 0</Position>
+						<Axis>0 -1 0</Axis>
+					</ConstraintGeometry>
+				</Concentric>
+				<Coincident name="Coincident4">
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>DYS-BLDC-86x10-BE8108-12-stator-1</Uid>
+						</InstancePath>
+						<Position>0 0.0080000000000000002 0</Position>
+						<Axis>0 1 0</Axis>
+					</ConstraintGeometry>
+					<ConstraintGeometry geomType="plane">
+						<InstancePath>
+							<Uid>DYS-BLDC-86x10-BE8108-12-rotor-1</Uid>
+						</InstancePath>
+						<Position>0 0.0080000000000000002 0</Position>
+						<Axis>0 -1 0</Axis>
+					</ConstraintGeometry>
+				</Coincident>
+			</Constraints>
+		</Assembly>
+		<Assembly name="minitaur-chassis" uid="minitaur-chassis" version="138">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<AssemblyFile name="minitaur-chassis.sldasm" type="SolidWorks Assembly"/>
+		</Assembly>
+		<Assembly name="minitaur-legs-side" uid="minitaur-legs-side" version="142">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<AssemblyFile name="minitaur-legs-side.sldasm" type="SolidWorks Assembly"/>
+		</Assembly>
+	</Assemblies>
+	<Parts>
+		<Part name="2517T32" uid="2517T32*:*Default" version="348">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="2517T32.SLDPRT" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.0059943870682364949</Mass>
+				<CenterOfMass>0 0.0044808129702820082 0</CenterOfMass>
+				<Inertia>5.6070116931628252e-007 2.5654398478896428e-007 5.6070116931628485e-007 0 0 0</Inertia>
+			</MassProperties>
+			<GeometryFile name="2517T32_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+				<Diffuse r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+				<Specular r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.80000001192092896</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="DYS-BLDC-86x10-BE8108-12-rotor" uid="DYS-BLDC-86x10-BE8108-12-rotor*:*Default" version="367">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="DYS-BLDC-86x10-BE8108-12-rotor.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.062799295804446681</Mass>
+				<CenterOfMass>0 0.018376700016970237 1.1504193356899863e-005</CenterOfMass>
+				<Inertia>3.4370130408915889e-005 6.5174393863894119e-005 3.4361282037662632e-005 -4.2566460990181939e-009 0 0</Inertia>
+			</MassProperties>
+			<GeometryFile name="DYS-BLDC-86x10-BE8108-12-rotor_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+				<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+				<Specular r="0.17568627151788449" g="0.17568627151788449" b="0.17568627151788449" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.10000000149011612</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="DYS-BLDC-86x10-BE8108-12-stator" uid="DYS-BLDC-86x10-BE8108-12-stator*:*Default" version="320">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="DYS-BLDC-86x10-BE8108-12-stator.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.1325651677809685</Mass>
+				<CenterOfMass>-0.00026250756241814801 0.011633674540541837 0</CenterOfMass>
+				<Inertia>7.8485714468716711e-005 0.00015076353132613339 7.9783961331415722e-005 0 0 -2.7558029445527914e-007</Inertia>
+			</MassProperties>
+			<GeometryFile name="DYS-BLDC-86x10-BE8108-12-stator_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+				<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+				<Specular r="0.17568627151788449" g="0.17568627151788449" b="0.17568627151788449" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.10000000149011612</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-battery-holder" uid="minitaur-battery-holder*:*Default" version="309">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-battery-holder.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.17178193689533985</Mass>
+				<CenterOfMass>0 0.015721245565570825 -0.0035233258337302635</CenterOfMass>
+				<Inertia>0.00049447493966944529 0.00055722505033493192 0.00017865158421647752 1.1878629179771262e-005 -2.3159076458070809e-010 0</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-battery-holder_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Diffuse r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Specular r="0.079607843137254899" g="0.079607843137254899" b="0.079607843137254899" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-battery-placeholder" uid="minitaur-battery-placeholder*:*Default" version="325">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-battery-placeholder.SLDPRT" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.40000000000000002</Mass>
+				<CenterOfMass>0 0.01 0</CenterOfMass>
+				<Inertia>5.2912444935366692e-005 0.00036961541228296325 0.00034273841899589742 0 0 0</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-battery-placeholder_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="1" g="0.93725490196078431" b="0.13725490196078433" a="1"/>
+				<Diffuse r="0.69999999999999996" g="0.65607843137254895" b="0.096078431372549025" a="1"/>
+				<Specular r="0.050000000000000003" g="0.04686274509803922" b="0.0068627450980392165" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-chassis-bottom-panel" uid="minitaur-chassis-bottom-panel*:*Default" version="393">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-chassis-bottom-panel.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.22812670721583406</Mass>
+				<CenterOfMass>-1.4802860881406281e-007 -0.00054922134363844324 2.2797169793454387e-005</CenterOfMass>
+				<Inertia>0.0011635588735676825 0.0026862679952838922 0.0015254971617177572 -8.9198332944795699e-009 9.2189520752904667e-011 -9.8148063119482483e-011</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-chassis-bottom-panel_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Diffuse r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Specular r="0.079607843137254899" g="0.079607843137254899" b="0.079607843137254899" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-chassis-middle-plate-plastic-cover" uid="minitaur-chassis-middle-plate-plastic-cover*:*Default" version="309">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-chassis-middle-plate-plastic-cover.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.023594211550248274</Mass>
+				<CenterOfMass>-1.3125202782195242e-007 0.036365416444684974 0.0040000004807648334</CenterOfMass>
+				<Inertia>2.0194395892318257e-005 4.6746310714542429e-005 6.6685860715390673e-005 2.4734274832134262e-013 1.029102722426928e-012 -6.2675352659479956e-011</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-chassis-middle-plate-plastic-cover_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Diffuse r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Specular r="0.079607843137254899" g="0.079607843137254899" b="0.079607843137254899" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-chassis-middle-plate-plastic-cover-cutouts" uid="minitaur-chassis-middle-plate-plastic-cover-cutouts*:*Default" version="309">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-chassis-middle-plate-plastic-cover-cutouts.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.025734350133905414</Mass>
+				<CenterOfMass>-0.079437034556280858 0.094185351487999447 -0.00018141343314007243</CenterOfMass>
+				<Inertia>1.7437092750015143e-005 4.2280067449035955e-005 5.9515745791980922e-005 1.1698708206240427e-008 -1.0444679061109073e-007 9.2905508810663949e-007</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-chassis-middle-plate-plastic-cover-cutouts_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Diffuse r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Specular r="0.079607843137254899" g="0.079607843137254899" b="0.079607843137254899" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-chassis-top-panel" uid="minitaur-chassis-top-panel*:*Default" version="380">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-chassis-top-panel.SLDPRT" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.10126068053851994</Mass>
+				<CenterOfMass>-9.5251567762494094e-014 0.0015000000000000005 -2.7601216528968397e-013</CenterOfMass>
+				<Inertia>0.00069889196179819674 0.00081030245168028524 0.00011156238090289625 0 -1.2820889024692331e-015 0</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-chassis-top-panel_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Diffuse r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Specular r="0.079607843137254899" g="0.079607843137254899" b="0.079607843137254899" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-leg-joint-placeholder-sim" uid="minitaur-leg-joint-placeholder-sim*:*Default" version="348">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-leg-joint-placeholder-sim.SLDPRT" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.00084467608977987054</Mass>
+				<CenterOfMass>0.0081515632627443685 0 0</CenterOfMass>
+				<Inertia>7.5031976569162626e-009 2.0286545748293432e-008 2.0286545748293432e-008 0 0 0</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-leg-joint-placeholder-sim_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="1" g="0.16862745098039217" b="0.16862745098039217" a="1"/>
+				<Diffuse r="1" g="0.16862745098039217" b="0.16862745098039217" a="1"/>
+				<Specular r="0.29999999999999999" g="0.050588235294117649" b="0.050588235294117649" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-leg-lower-link" uid="minitaur-leg-lower-link*:*Default" version="308">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-leg-lower-link.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.033495052447282597</Mass>
+				<CenterOfMass>0.10000000000000005 0 0.0031749999999999999</CenterOfMass>
+				<Inertia>1.2134450071081068e-006 0.00014117496289220435 0.00014216330719059488 0 0 0</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-leg-lower-link_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+				<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+				<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-leg-lower-link-toe" uid="minitaur-leg-lower-link-toe*:*Default" version="308">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-leg-lower-link-toe.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.037654530011057279</Mass>
+				<CenterOfMass>0.111748740591936 0 0.0031750000000000003</CenterOfMass>
+				<Inertia>1.2506384378955405e-006 0.00018533537323809504 0.00018633295754492876 0 0 0</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-leg-lower-link-toe_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+				<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+				<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-leg-upper-link" uid="minitaur-leg-upper-link*:*Default" version="308">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-leg-upper-link.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.027901601110829396</Mass>
+				<CenterOfMass>0.040455834064074957 0 0.0031750000000000012</CenterOfMass>
+				<Inertia>3.8671180056234414e-006 4.1619279403535867e-005 4.5298887024027403e-005 0 0 0</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-leg-upper-link_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+				<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+				<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-middle-plate" uid="minitaur-middle-plate*:*Default" version="309">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-middle-plate.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.022400815633376345</Mass>
+				<CenterOfMass>0 0.036906313979336143 0.0094999999999999998</CenterOfMass>
+				<Inertia>1.190411079238804e-005 2.4825644777971067e-005 3.6696154346909049e-005 0 0 0</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-middle-plate_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Diffuse r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Specular r="0.079607843137254899" g="0.079607843137254899" b="0.079607843137254899" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-motor-driver-board" uid="minitaur-motor-driver-board*:*Default" version="312">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-motor-driver-board.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.025000000000000001</Mass>
+				<CenterOfMass>0.066040084846934244 -0.0016344441111256658 0.016359732854222726</CenterOfMass>
+				<Inertia>1.0235269448817333e-005 1.011616019619389e-005 1.8570877559762261e-005 5.7278152492555304e-008 -2.8934305142945478e-007 -5.9287269364160354e-007</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-motor-driver-board_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.28627450980392155" g="0.66274509803921566" b="0.32941176470588235" a="1"/>
+				<Diffuse r="0.20039215686274509" g="0.46392156862745093" b="0.23058823529411762" a="1"/>
+				<Specular r="0.014313725490196078" g="0.033137254901960782" b="0.016470588235294119" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-motor-driver-cover" uid="minitaur-motor-driver-cover*:*Default" version="315">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-motor-driver-cover.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.027276996846225521</Mass>
+				<CenterOfMass>0.050160816336035023 -2.1435855155889065e-005 0.023916460920112379</CenterOfMass>
+				<Inertia>1.3330150378719793e-005 1.4801018307801006e-005 2.4558272056203934e-005 3.7637159996225421e-009 -3.5612686958912817e-007 1.8134666708638692e-008</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-motor-driver-cover_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Diffuse r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Specular r="0.079607843137254899" g="0.079607843137254899" b="0.079607843137254899" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-motor-module-plate" uid="minitaur-motor-module-plate*:*Default" version="320">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-motor-module-plate.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.065627798122724082</Mass>
+				<CenterOfMass>0.052789834682587557 -0.00044152196226781936 0.0027745181262449656</CenterOfMass>
+				<Inertia>3.62296886381831e-005 4.3972543739463399e-005 7.977769535697921e-005 3.4374759534840275e-008 8.8029775793411347e-008 -9.8179180609227666e-008</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-motor-module-plate_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+				<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+				<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-side-panel" uid="minitaur-side-panel*:*Default" version="308">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-side-panel.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.055044522429418</Mass>
+				<CenterOfMass>0 0.017726462623586011 0.0014999999999999742</CenterOfMass>
+				<Inertia>3.0390165338260263e-005 0.00048856186666487483 0.00051886946521948949 0 0 0</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-side-panel_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Diffuse r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Specular r="0.079607843137254899" g="0.079607843137254899" b="0.079607843137254899" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-side-panel-outer" uid="minitaur-side-panel-outer*:*Default" version="309">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-side-panel-outer.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.040802924773454895</Mass>
+				<CenterOfMass>3.8490324831873557e-005 -3.2810471133120546e-005 0.0014999999338580398</CenterOfMass>
+				<Inertia>9.1951969186495613e-006 0.00032278092359543179 0.00033191491613980171 -1.0361236207738485e-014 -7.8118999644456925e-015 3.4994699615434059e-008</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-side-panel-outer_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Diffuse r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Specular r="0.079607843137254899" g="0.079607843137254899" b="0.079607843137254899" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-side-plate" uid="minitaur-side-plate*:*Default" version="313">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-side-plate.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.17259472540762116</Mass>
+				<CenterOfMass>0 0 0.0031749999999999994</CenterOfMass>
+				<Inertia>0.0001238748432190593 0.0037182482141188407 0.0038409631488686914 0 0 0</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-side-plate_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+				<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+				<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-side-plate-outer" uid="minitaur-side-plate-outer*:*Default" version="323">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-side-plate-outer.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.19606295808780336</Mass>
+				<CenterOfMass>-0.00014817628722539351 8.6265741690937808e-005 0.0031749999336701724</CenterOfMass>
+				<Inertia>0.0001263245504657764 0.0037266426403508085 0.0038516495662568161 -2.2837726572125155e-013 8.3033938808944734e-014 -3.5025772348219496e-007</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-side-plate-outer_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+				<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+				<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-side-support-plate" uid="minitaur-side-support-plate*:*Default" version="308">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-side-support-plate.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.018614212021861289</Mass>
+				<CenterOfMass>0 0 0.0046989092686280983</CenterOfMass>
+				<Inertia>5.3970301767259635e-006 1.2341395946052306e-005 1.7520259799981883e-005 0 0 8.040271119064649e-013</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-side-support-plate_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Diffuse r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Specular r="0.079607843137254899" g="0.079607843137254899" b="0.079607843137254899" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+		<Part name="minitaur-side-top-panel" uid="minitaur-side-top-panel*:*Default" version="309">
+			<ModelUnits mass="kilogram" length="millimeter"/>
+			<PartFile name="minitaur-side-top-panel.sldprt" type="SolidWorks Part"/>
+			<MassProperties>
+				<Mass>0.044732076538320141</Mass>
+				<CenterOfMass>0 0.0015 0</CenterOfMass>
+				<Inertia>9.2784447630257322e-005 0.00012477795138276937 3.2060601867319541e-005 0 0 0</Inertia>
+			</MassProperties>
+			<GeometryFile name="minitaur-side-top-panel_Default_sldprt.STEP" type="STEP"/>
+			<VisualProperties>
+				<Ambient r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Diffuse r="0.11372549019607843" g="0.11372549019607843" b="0.11372549019607843" a="1"/>
+				<Specular r="0.079607843137254899" g="0.079607843137254899" b="0.079607843137254899" a="1"/>
+				<Emissive r="0" g="0" b="0" a="1"/>
+				<Shininess>0.3125</Shininess>
+			</VisualProperties>
+		</Part>
+	</Parts>
+</SimscapeMultibodyImportXML>

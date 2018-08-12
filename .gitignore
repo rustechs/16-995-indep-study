@@ -1,0 +1,28 @@
+# Windows default autosave extension
+*.asv
+*.autosave
+
+# OSX / *nix default autosave extension
+*.m~
+
+# Compiled MEX binaries (all platforms)
+*.mex*
+
+# Simulink Code Generation
+slprj/
+*_rsim_rtw/
+
+# ignore SolidWorks temporary files
+~$*.SLDPRT
+~$*.SLDASM
+
+# ignore all solidworks files for now
+*.SLDPRT
+*.SLDASM
+
+# Other stuff
+*.err
+*.rpt
+
+# Don't upload data
+simData/
