@@ -1,0 +1,600 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Alexander_1990}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3b3f45b612928bd01464e921e3a0b862}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={R.\bibnamedelimi McN.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {{SAGE} Publications}%
+      }
+      \strng{namehash}{3b3f45b612928bd01464e921e3a0b862}
+      \strng{fullhash}{3b3f45b612928bd01464e921e3a0b862}
+      \strng{bibnamehash}{3b3f45b612928bd01464e921e3a0b862}
+      \strng{authorbibnamehash}{3b3f45b612928bd01464e921e3a0b862}
+      \strng{authornamehash}{3b3f45b612928bd01464e921e3a0b862}
+      \strng{authorfullhash}{3b3f45b612928bd01464e921e3a0b862}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The International Journal of Robotics Research}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Three Uses for Springs in Legged Locomotion}
+      \field{volume}{9}
+      \field{year}{1990}
+      \field{pages}{53\bibrangedash 61}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1177/027836499000900205
+      \endverb
+      \verb{file}
+      \verb :E\:\\Reference\\Robotics\\Robotic Locomotion\\alexander2.pdf:PDF
+      \endverb
+    \endentry
+    \entry{calandra2016bayesian}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=864584c60b808b517f2a06c664ec116a}{%
+           family={Calandra},
+           familyi={C\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1f4665f456d26db7082841c040ec8bab}{%
+           family={Seyfarth},
+           familyi={S\bibinitperiod},
+           given={Andr{é}},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c2cb77a864f65a21da0f69121b89835b}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=180a2eb9f878dfaf1937923bbd516aef}{%
+           family={Deisenroth},
+           familyi={D\bibinitperiod},
+           given={Marc\bibnamedelima Peter},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{b12ddbaec8f3b1b7e9731953e8e41bbc}
+      \strng{fullhash}{a491f120fb30cd837745879840412f9a}
+      \strng{bibnamehash}{b12ddbaec8f3b1b7e9731953e8e41bbc}
+      \strng{authorbibnamehash}{b12ddbaec8f3b1b7e9731953e8e41bbc}
+      \strng{authornamehash}{b12ddbaec8f3b1b7e9731953e8e41bbc}
+      \strng{authorfullhash}{a491f120fb30cd837745879840412f9a}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Mathematics and Artificial Intelligence}
+      \field{number}{1-2}
+      \field{title}{Bayesian optimization for learning gaits under uncertainty}
+      \field{volume}{76}
+      \field{year}{2016}
+      \field{pages}{5\bibrangedash 23}
+      \range{pages}{19}
+      \verb{file}
+      \verb :E\:\\School\\CMU RI Masters\\Spring 2017\\16-711 KDC\\Final Project\\quadrupedal-gait-preference\\references\\art%3A10.1007%2Fs10472-015-9463-9.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Geyer_2006}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=f0c152b8b2ad010673c45e99cf481d6d}{%
+           family={Geyer},
+           familyi={G\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d96d9cf8adebfb664257812049134253}{%
+           family={Seyfarth},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=edbfa6c31f665ed9da38fa148f2e4e8b}{%
+           family={Blickhan},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{57ff04973f9c014fd7ff707adff5c01a}
+      \strng{fullhash}{2f040dd8891dab4d8916f4ca89c2671b}
+      \strng{bibnamehash}{2f040dd8891dab4d8916f4ca89c2671b}
+      \strng{authorbibnamehash}{2f040dd8891dab4d8916f4ca89c2671b}
+      \strng{authornamehash}{57ff04973f9c014fd7ff707adff5c01a}
+      \strng{authorfullhash}{2f040dd8891dab4d8916f4ca89c2671b}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Royal Society B: Biological Sciences}
+      \field{month}{11}
+      \field{number}{1603}
+      \field{title}{Compliant leg behaviour explains basic dynamics of walking and running}
+      \field{volume}{273}
+      \field{year}{2006}
+      \field{pages}{2861\bibrangedash 2867}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1098/rspb.2006.3637
+      \endverb
+      \verb{file}
+      \verb :E\:\\Reference\\Robotics\\Robotic Locomotion\\Geyer_2006 - Compliant leg behaviour explains basic dynamics of walking and running.pdf:PDF
+      \endverb
+    \endentry
+    \entry{grminitaur}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e76627ec6286dbcd7bc7111d38680ebc}{%
+           family={{Ghost Robotics LLC}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e76627ec6286dbcd7bc7111d38680ebc}
+      \strng{fullhash}{e76627ec6286dbcd7bc7111d38680ebc}
+      \strng{bibnamehash}{e76627ec6286dbcd7bc7111d38680ebc}
+      \strng{authorbibnamehash}{e76627ec6286dbcd7bc7111d38680ebc}
+      \strng{authornamehash}{e76627ec6286dbcd7bc7111d38680ebc}
+      \strng{authorfullhash}{e76627ec6286dbcd7bc7111d38680ebc}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.ghostrobotics.io/minitaur}}
+      \field{title}{Minitaur Robot Platform}
+      \field{year}{2016}
+    \endentry
+    \entry{hansen2001}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=71bc70e7c119a2151bf105823920cf83}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={Nikolaus},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=baad0a55a3d382a5b55ac169579ee0c8}{%
+           family={Ostermeier},
+           familyi={O\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{3f8b8ead7823b392ca828a13434e631f}
+      \strng{fullhash}{3db568fd306c52341edbb9bdc81edc55}
+      \strng{bibnamehash}{3db568fd306c52341edbb9bdc81edc55}
+      \strng{authorbibnamehash}{3db568fd306c52341edbb9bdc81edc55}
+      \strng{authornamehash}{3f8b8ead7823b392ca828a13434e631f}
+      \strng{authorfullhash}{3db568fd306c52341edbb9bdc81edc55}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Evolutionary computation}
+      \field{number}{2}
+      \field{title}{Completely derandomized self-adaptation in evolution strategies}
+      \field{volume}{9}
+      \field{year}{2001}
+      \field{pages}{159\bibrangedash 195}
+      \range{pages}{37}
+    \endentry
+    \entry{hegland_taylor_1988}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=43b1f11b87850fbbaa189008204d50fd}{%
+           family={Hegland},
+           familyi={H\bibinitperiod},
+           given={Norman\bibnamedelima C.},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2c2b899e825c2c79b7f5cac3233dba98}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={C.\bibnamedelimi Richard},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac1baff7f8f7aa2dbcd26cb9b295afa0}
+      \strng{fullhash}{931034129fc5b57212746ea43eb7085e}
+      \strng{bibnamehash}{931034129fc5b57212746ea43eb7085e}
+      \strng{authorbibnamehash}{931034129fc5b57212746ea43eb7085e}
+      \strng{authornamehash}{ac1baff7f8f7aa2dbcd26cb9b295afa0}
+      \strng{authorfullhash}{931034129fc5b57212746ea43eb7085e}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Biology}
+      \field{title}{Speed, Stride Frequency and Energetic Cost per Stride: How Do They Change with Body Size and Gait?}
+      \field{volume}{138}
+      \field{year}{1988}
+      \field{pages}{301\bibrangedash 318}
+      \range{pages}{18}
+      \verb{urlraw}
+      \verb http://jeb.biologists.org/content/jexbio/138/1/301.full.pdf
+      \endverb
+      \verb{url}
+      \verb http://jeb.biologists.org/content/jexbio/138/1/301.full.pdf
+      \endverb
+    \endentry
+    \entry{Hildebrand701}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=fad93c260bafc2dd6bae9e3992ad592c}{%
+           family={Hildebrand},
+           familyi={H\bibinitperiod},
+           given={Milton},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{fad93c260bafc2dd6bae9e3992ad592c}
+      \strng{fullhash}{fad93c260bafc2dd6bae9e3992ad592c}
+      \strng{bibnamehash}{fad93c260bafc2dd6bae9e3992ad592c}
+      \strng{authorbibnamehash}{fad93c260bafc2dd6bae9e3992ad592c}
+      \strng{authornamehash}{fad93c260bafc2dd6bae9e3992ad592c}
+      \strng{authorfullhash}{fad93c260bafc2dd6bae9e3992ad592c}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{number}{3697}
+      \field{title}{Symmetrical Gaits of Horses}
+      \field{volume}{150}
+      \field{year}{1965}
+      \field{pages}{701\bibrangedash 708}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1126/science.150.3697.701
+      \endverb
+      \verb{eprint}
+      \verb http://science.sciencemag.org/content/150/3697/701.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://science.sciencemag.org/content/150/3697/701
+      \endverb
+      \verb{url}
+      \verb http://science.sciencemag.org/content/150/3697/701
+      \endverb
+    \endentry
+    \entry{hoyt_taylor_1981}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=209065862edcd090405fb3f4efa6f59d}{%
+           family={Hoyt},
+           familyi={H\bibinitperiod},
+           given={Donald\bibnamedelima F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2c2b899e825c2c79b7f5cac3233dba98}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={C.\bibnamedelimi Richard},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d24ea4ca5173fb39740960fbcb1392ef}
+      \strng{fullhash}{a778603c6db6d80d48d9ec1e528ec811}
+      \strng{bibnamehash}{a778603c6db6d80d48d9ec1e528ec811}
+      \strng{authorbibnamehash}{a778603c6db6d80d48d9ec1e528ec811}
+      \strng{authornamehash}{d24ea4ca5173fb39740960fbcb1392ef}
+      \strng{authorfullhash}{a778603c6db6d80d48d9ec1e528ec811}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{5820}
+      \field{title}{Gait and the energetics of locomotion in horses}
+      \field{volume}{292}
+      \field{year}{1981}
+      \field{pages}{239\bibrangedash 240}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1038/292239a0
+      \endverb
+      \verb{urlraw}
+      \verb http://www.nature.com/nature/journal/v292/n5820/abs/292239a0.html
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/nature/journal/v292/n5820/abs/292239a0.html
+      \endverb
+    \endentry
+    \entry{lizotte2007automatic}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=c91eb3ae547761673049c2b3b23d296b}{%
+           family={Lizotte},
+           familyi={L\bibinitperiod},
+           given={Daniel\bibnamedelima J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ad1506e9f10da2cad4389eac16751647}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0f1eaeea941a1ed11928d5ac66514bce}{%
+           family={Bowling},
+           familyi={B\bibinitperiod},
+           given={Michael\bibnamedelima H},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fc76f5fb256da4d423554f8e629b4321}{%
+           family={Schuurmans},
+           familyi={S\bibinitperiod},
+           given={Dale},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{00f035124149f42d9f2d58d79a34c6b5}
+      \strng{fullhash}{b8d59a5326b2fefe44060abe823e8e41}
+      \strng{bibnamehash}{00f035124149f42d9f2d58d79a34c6b5}
+      \strng{authorbibnamehash}{00f035124149f42d9f2d58d79a34c6b5}
+      \strng{authornamehash}{00f035124149f42d9f2d58d79a34c6b5}
+      \strng{authorfullhash}{b8d59a5326b2fefe44060abe823e8e41}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IJCAI}
+      \field{title}{Automatic Gait Optimization with Gaussian Process Regression.}
+      \field{volume}{7}
+      \field{year}{2007}
+      \field{pages}{944\bibrangedash 949}
+      \range{pages}{6}
+      \verb{file}
+      \verb :E\:\\School\\CMU RI Masters\\Spring 2017\\16-711 KDC\\Final Project\\quadrupedal-gait-preference\\references\\IJCAI07-152.pdf:PDF
+      \endverb
+    \endentry
+    \entry{mcmahon_1985}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f11b0a4967df01bb331f27076633b745}{%
+           family={McMahon},
+           familyi={M\bibinitperiod},
+           given={TA},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f11b0a4967df01bb331f27076633b745}
+      \strng{fullhash}{f11b0a4967df01bb331f27076633b745}
+      \strng{bibnamehash}{f11b0a4967df01bb331f27076633b745}
+      \strng{authorbibnamehash}{f11b0a4967df01bb331f27076633b745}
+      \strng{authornamehash}{f11b0a4967df01bb331f27076633b745}
+      \strng{authorfullhash}{f11b0a4967df01bb331f27076633b745}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Biology}
+      \field{number}{5820}
+      \field{title}{The role of compliance in mammalian running gaits}
+      \field{volume}{115}
+      \field{year}{1985}
+      \field{pages}{263\bibrangedash 282}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb http://jeb.biologists.org/content/115/1/263.short
+      \endverb
+      \verb{url}
+      \verb http://jeb.biologists.org/content/115/1/263.short
+      \endverb
+    \endentry
+    \entry{contactmodel}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=87dd974209ecee97b03c2e380906bc3d}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87dd974209ecee97b03c2e380906bc3d}
+      \strng{fullhash}{87dd974209ecee97b03c2e380906bc3d}
+      \strng{bibnamehash}{87dd974209ecee97b03c2e380906bc3d}
+      \strng{authorbibnamehash}{87dd974209ecee97b03c2e380906bc3d}
+      \strng{authornamehash}{87dd974209ecee97b03c2e380906bc3d}
+      \strng{authorfullhash}{87dd974209ecee97b03c2e380906bc3d}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.mathworks.com/matlabcentral/fileexchange/47417-simscape-multibody-contact-forces-library}}
+      \field{title}{Simscape Multibody Contact Forces Library}
+      \field{year}{2016}
+    \endentry
+    \entry{remy2011optimal}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=dbef763b1c6697e76172189adefff319}{%
+           family={Remy},
+           familyi={R\bibinitperiod},
+           given={C\bibnamedelima David},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Massachusetts Institute of Technology}%
+      }
+      \strng{namehash}{dbef763b1c6697e76172189adefff319}
+      \strng{fullhash}{dbef763b1c6697e76172189adefff319}
+      \strng{bibnamehash}{dbef763b1c6697e76172189adefff319}
+      \strng{authorbibnamehash}{dbef763b1c6697e76172189adefff319}
+      \strng{authornamehash}{dbef763b1c6697e76172189adefff319}
+      \strng{authorfullhash}{dbef763b1c6697e76172189adefff319}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Optimal exploitation of natural dynamics in legged locomotion}
+      \field{type}{phdthesis}
+      \field{year}{2011}
+      \verb{file}
+      \verb :E\:\\School\\CMU RI Masters\\Spring 2017\\16-711 KDC\\Final Project\\quadrupedal-gait-preference\\references\\Remy2011_Dissertation.pdf:PDF
+      \endverb
+    \endentry
+    \entry{srinivasan2010fifteen}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=258eba50be3cc1a57cd3143048fa91fe}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Manoj},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{258eba50be3cc1a57cd3143048fa91fe}
+      \strng{fullhash}{258eba50be3cc1a57cd3143048fa91fe}
+      \strng{bibnamehash}{258eba50be3cc1a57cd3143048fa91fe}
+      \strng{authorbibnamehash}{258eba50be3cc1a57cd3143048fa91fe}
+      \strng{authornamehash}{258eba50be3cc1a57cd3143048fa91fe}
+      \strng{authorfullhash}{258eba50be3cc1a57cd3143048fa91fe}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of The Royal Society Interface}
+      \field{title}{Fifteen observations on the structure of energy-minimizing gaits in many simple biped models}
+      \field{year}{2010}
+      \field{pages}{rsif20090544}
+      \range{pages}{-1}
+      \verb{file}
+      \verb :E\:\\School\\CMU RI Masters\\Spring 2017\\16-711 KDC\\Final Project\\quadrupedal-gait-preference\\references\\rsif20090544.pdf:PDF
+      \endverb
+    \endentry
+    \entry{von1950price}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=b0e86f6586ac37917db083984e41a9d8}{%
+           family={Von\bibnamedelima Karman},
+           familyi={V\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Theodore},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8efc5c92e7cb3069ba89b9c65228b622}{%
+           family={Gabrielli},
+           familyi={G\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a0277d79645ee1e12d3519bd2ae5eb95}
+      \strng{fullhash}{6fa17bc501a149c6c060939b4aa0692d}
+      \strng{bibnamehash}{6fa17bc501a149c6c060939b4aa0692d}
+      \strng{authorbibnamehash}{6fa17bc501a149c6c060939b4aa0692d}
+      \strng{authornamehash}{a0277d79645ee1e12d3519bd2ae5eb95}
+      \strng{authorfullhash}{6fa17bc501a149c6c060939b4aa0692d}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mechanical Engineering}
+      \field{title}{What price speed? Specific power required for propulsion of vehicles}
+      \field{volume}{72}
+      \field{year}{1950}
+      \field{pages}{775\bibrangedash 781}
+      \range{pages}{7}
+    \endentry
+    \entry{albertwuhartmutgeyer2013}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=9f82d2a2c3ea2d687c46c0fd5a1ca9c9}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3b79917e77c93f1d87a58e296976e2ff}{%
+           family={Geyer},
+           familyi={G\bibinitperiod},
+           given={Hartmut},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1794dadab48c0d8682d2d4484a64f518}
+      \strng{fullhash}{fe47125fd6cf22805cda8c9e6cb16c0a}
+      \strng{bibnamehash}{fe47125fd6cf22805cda8c9e6cb16c0a}
+      \strng{authorbibnamehash}{fe47125fd6cf22805cda8c9e6cb16c0a}
+      \strng{authornamehash}{1794dadab48c0d8682d2d4484a64f518}
+      \strng{authorfullhash}{fe47125fd6cf22805cda8c9e6cb16c0a}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE TRANSACTIONS ON ROBOTICS}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{The 3-D Spring–Mass Model Reveals a Time-Based Deadbeat Control for Highly Robust Running and Steering in Uncertain Environments}
+      \field{volume}{29}
+      \field{year}{2013}
+      \field{pages}{1114\bibrangedash 1124}
+      \range{pages}{11}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
