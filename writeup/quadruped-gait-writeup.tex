@@ -25,6 +25,7 @@
 \usepackage{todonotes}
 \usepackage{cleveref}
 \usepackage{caption}
+\usepackage{booktabs}
 
 \captionsetup{font={footnotesize,it},labelfont={footnotesize,bf,it}}
 
@@ -155,7 +156,7 @@ The CMA-ES code developed for this project was adapted from Nikolaus Hansen's sa
 
 \subsection{Minitaur Robot}
 
-The simulated gait investigation reported here was done using a detailed dynamic model of a \emph{Ghost Robotics Minitaur} \autocite{grminitaur}: an 8 DOF, direct-drive (PMSM actuated) quadrupedal robot platform capable of both quasi-static and dynamic gaits. A photo of the \emph{Minitaur} is provided in \cref{fig:grminitaur}. Notably, the legs of this quadruped consist of nearly symmetric five-bar linkages. The robot is approximately 50\si{\centi\m} long, 30 \si{\centi\m} wide, and has a maximal leg extension of 30 \si{\centi\m}. The total weight of the system is 6.36\si{\kg}.
+The simulated gait investigation reported here was carried out using a detailed dynamic model of a \emph{Ghost Robotics Minitaur} \autocite{grminitaur}: an 8 DOF, direct-drive (PMSM actuated) quadrupedal robot platform capable of both quasi-static and dynamic gaits. A photo of the \emph{Minitaur} is provided in \cref{fig:grminitaur}. Notably, the legs of this quadruped consist of nearly symmetric five-bar linkages. The robot is approximately 50\si{\centi\m} long, 30 \si{\centi\m} wide, and has a maximal leg extension of 30 \si{\centi\m}. The total weight of the system is 6.36\si{\kg}.
 
 \begin{figure}[ht!]
     \centering
@@ -175,44 +176,53 @@ To this end, a detailed model of the \emph{Minitaur} was previously created in \
 \subsection{Robot Model}
 The kinematic, inertial, and graphical properties of the \emph{Minitaur} simulation model were extracted directly from an accurate CAD model supplied by Ghost Robotics. Additional secondary parasitic effects such as joint friction were added based on basic empirical verification. The PMSM actuators are represented using a simplified first-order, linear DC motor model with voltage saturation limits. The motor parameters were taken from the manufacturer's specifications. The foot-ground interaction model was based on a third-party \emph{Simscape} contact modeling package \autocite{contactmodel}. Geometrically, the interaction was represented as a sphere-on-plane contact, matching the actual geometry of the rounded foot and idealized flat ground quite closely. Normal forces were approximated by a linear spring-damper model. A Coulomb stick-slip model was used to model the tangential friction forces. Coefficients were selected to match a realistic scenario of the robot stepping on a carpeted floor.
 
-\todo{edit from here on}
+\subsection{Foot Trajectory Generator and Gait Parametrization}
+As noted prior, a very naive approach was taken to the foot trajectory design in order to emphasize the open-loop, steady-state robustness of the resulting gaits. In particular, a prototypical elliptical workspace trajectory was shared by all feet, differing only in phase. The spatial aspects of the trajectory -- the major and minor diameters of the ellipse, its distance from the motor axis, and its tilt relative to the horizon -- were determined manually by examining the reachable workspace of the foot as well as simulation behavior in order to ensure reliable tracking controller performance. \cref{table:traj-params} gives the values used for the spatial parameters of the foot trajectory in this study.
 
-\subsection{Trajectory Generator and Gait Parametrization}
-F elliptical trajectories are generated for each foot. An ellipse was chosen as it is simple enough to be easily parameterized, yet produces complex gait behavior. The major and minor diameters of the ellipse, its distance from the motor axes, and its tilt were determined manually by examining the reachable workspace of the foot as well as simulation to ensure stable behavior. The \emph{period} of the elliptical trajectory, which describes how long it takes for each foot to complete one pass through the ellipse, is given as a parameter to the system. To produce different gaits, a phase offset is given for each foot; that is, all feet follow the same trajectory with the same period, but at different phase offsets.  We represent the phase offsets using two parameters. The first is the \emph{left/right sync}, which is true if the left and right sides are symmetrical and false if they are antisymmetrical, (i.e., $180^\circ$ out of phase). The second parameter is the \emph{phase offset} of the fore legs, which determines how much each fore foot lags behind the corresponding back foot. From these parameters, we can generate a wide variety of gaits.
+\begin{table}[ht!]
+	\centering
+	\caption{Foot Trajectory Spatial Parameters}
+	\label{table:traj-params}
+	\begin{tabular}{@{}ll@{}}
+		\toprule
+		Parameter                  & Value \\ \midrule
+		Ellipse Semi-Major Axis    & 150\hfill[\si{\mm}]   \\
+		Ellipse Semi-Minor Axis    & 60\hfill[\si{\mm}]  \\
+		Ellipse Tilt               & 0\hfill[\si{\radian}]   \\
+		Motor Axis Vertical Offset & 250~\hfill[\si{\mm}]  \\ \bottomrule
+	\end{tabular}
+\end{table}
+
+Varying the temporal parameters of the trajectory enabled the generation of various gaits. Motivated by biomechanics literature, the quadruped (horse) gait parametrization of \autocite{Hildebrand701} was adapted. In this framework, gaits are divided into two categories -- symmetric and anti-symmetric across the sagittal plane. Note that a number of common gaits, such as the gallop, do not fit into either category, and as such are not considered here. Within both categories, gaits are parametrized by their repetition period and the phase offset between the front and rear legs.
 
 \subsection{Motor Controllers}
-An analytical inverse kinematics model is used to compute desired motor angle from each foot trajectory. These desired joint angles are then fed into a softly-tuned position PID controller to compute desired motor torques, which are then sent to the motors. The "softness" of the position controller was used to emulation elasticity in the leg actuation. The gains were manually tuned to achieve acceptable performance. 
+Owing to the simple five-bar linkage geometry of the legs, an analytical inverse kinematics model is used to compute desired motor angle from each foot's workspace trajectory. These desired joint angles are then fed into a softly-tuned position PID controller to compute desired motor torques, which are then sent to the motors. The "softness" of the position controller was used to emulate compliance in the leg actuation. The controller gains, common across all four legs, were manually tuned to achieve acceptable performance. 
 
 \section{Results}
 
-To correlate the CoT with the parameters of the model, simulations were performed various values for the period of the gait and the phase offset between the fore leg and the hind leg, using CMA-ES with a large parameter space. Based on the results achieved, the parameter space for the period was narrowed down, and CMA-ES was conducted again.
-
-\subsection{Parameter Sweep}
-First, the entire parameter space was intelligently searched for \emph{period} $t \in[0.5,4]$ and the \emph{phase offset} $l \in[0,2\pi]$, with $0$ indicating in-phase and $\pi$ indicating out-of-phase motion of the fore and the hind legs using CMA-ES. This entire parameter space was searched for the two cases of left/right symmetry and anti-symmetry. The elliptical path trajectory for the simulation was a semi-major axis of radius $0.3\ell_{leg}$ oriented along the distance travelled and a semi-minor axis of radius $0.2\ell_{leg}$ length oriented vertically. 
+The ultimate goal of this endeavor is to find any latent, dimensionless relationships between the morphology of a quadruped and its preferred (low CoT) gaits. To this end, the purpose of this initial work is to demonstrate the evaluation of gait performance for a particular morphology -- namely, the \emph{Minitaur} robot. Using the gait parametrization framework described prior, the parameter space was sampled using CMA-ES and the resulting gaits simulated in order to construct a CoT heatmap over the parameter space.
 
 \subsection{Preliminary Results}
-The CoT heat map for left/right symmetric gaits can be seen in \cref{fig:sync_gait}. The majority of the parameters swept resulted in high CoT values. Local minima can be seen which correspond to bounding and pronking gaits. In the areas with large CoT, the \emph{Minitaur} simulation did not have enough energy input during the simulation and therefore was unable to move forward.
+An initial search was carried out over a large range of the parameter space, covering the \emph{period} $t \in (0.5,4) [\si{\s}]$ and the \emph{phase offset} $l \in (0,2\pi) [\si{rad}]$ for both symmetric and anti-symmetric gaits.
+
+The resulting CoT heat map for left/right symmetric gaits is shown in \cref{fig:sync_gait}. A major portion of the evaluated parameter space corresponding to long gait periods resulted in very high CoT values, indicating infeasible gaits. Visualizations of simulated gaits belonging to this region of the parameter space made clear that the long gait periods provided insufficient momentum to move the quadruped forward. However, a number of local minima in CoT (blue) can be seen in the region of shorter gait periods; these correspond to various bounding and pronking gaits, where the quadruped was able to achieve sufficient momentum within each gait cycle to periodically detach its feet from the ground and step forward.
            \begin{figure}[ht!]
-         
+   
            \includegraphics[width=0.53\textwidth]{smooth_CoT_sync_gait}
            \caption{CoT for left/right symmetric gaits}
            \label{fig:sync_gait}
            \end{figure}
                       \begin{figure}[ht!]
-The CoT heat map for left/right anti-symmetric gaits similarly yielded local minima which corresponded with walking and trotting gaits (\cref{fig:unsync_gait}). In both heat maps, the minimum CoT occurred at very small periods, which is in accordance with biology where smaller animals tend to have gaits with higher frequencies.         
+The CoT heat map for left/right anti-symmetric gaits similarly yielded local minima which corresponded with walking and trotting gaits (\cref{fig:unsync_gait}). In both heat maps, the minimum CoT occurred at relatively short gait periods, comparable to those seen in similarly sized biological quadrupeds.
            \includegraphics[width=0.53\textwidth]{smooth_CoT_unsync_gait}
            \caption{CoT for left/right anti-symmetric gaits}
            \label{fig:unsync_gait}
            \end{figure}
-% TODO: THU can you fill in this section ?
-% I am not sure what had you mentioned during the presentation 
+       
+\subsection{Refined Search Space Results}
+Since most of the interesting results -- the frequent appearance of CoT minima -- occurred in the parameter space region of short gait periods, the procedure above was repeated over a smaller range of gait periods, between 0.25 [\si{\s}] and 1 [\si{\s}]. The range of evaluated phase offsets remained unchanged.
 
-\subsection{Refined Results}
-Because the CoT minima occurred during smaller periods, the second simulation used a narrower period space, starting at 0.25s and ending at 1s. The period offset space was again 0 to 1. This entire parameter space was searched for symmetric and anti-symmetric gaits. The parameter space was narrowed in order to search more parameters in the space that produced lower CoT gaits.
-
-The path trajectory for the simulation was changed because in the first experiment, the \emph{Minitaur} was unable to lift its legs off of the ground due to an inadequate path trajectory. Therefore, the elliptical path trajectory for the simulation was a semi-major axis with radius $0.5\ell_{leg}$ and a semi-minor axis of radius $0.3\ell_{leg}$, which are trotting trajectories for horses \autocite {mcmahon_1985}.
-
-The minimum in CoT for left/right symmetric gaits was 34.6 occurring at a period of 0.58s and a phase offset of 1.1$\pi$ (\cref{fig:sync_gait_2}). The simulation was unstable in every phase offset condition at periods below 0.5s. In the left/right anti-symmetric gaits, the minimum CoT was 11.5 occurring at a period of 0.33s and a phase offset of 0.9$\pi $ (\cref{fig:unsync_gait_2}). The simulation had unstable gaits at every phase offset below 0.45$\pi$ and above 1.1$\pi$. 
+The minimum CoT found for left/right symmetric gaits was 34.6, occurring at a period of 0.58 [\si{\s}] and a phase offset of 1.1$\pi$ [\si{\radian}] (\cref{fig:sync_gait_2}). Notably, the simulation was unstable in every phase offset condition at periods below 0.5[\si{\s}]. In the left/right anti-symmetric gaits, the minimum CoT was 11.5, occurring at a period of 0.33 [\si{\s}] and a phase offset of 0.9$\pi$ [\si{\radian}] (\cref{fig:unsync_gait_2}). The simulation had unstable gaits at every phase offset below 0.45$\pi$ [\si{\radian}] and above 1.1$\pi$ [\si{\radian}]. 
 \begin{figure}[ht!]
          
            \includegraphics[width=0.53\textwidth]{sync}
@@ -226,23 +236,9 @@ The minimum in CoT for left/right symmetric gaits was 34.6 occurring at a period
            \label{fig:unsync_gait_2}
 \end{figure}
            
-
-
 \section{Discussion}
 
-% Assigned: Thu/Ash
-
-
-% Outline:
-% Paragraph 1. Identified several independent gait patterns, that agree with quadruped patterns from {Hildebrand701}
-%  - List gaits, appropriate patterns, ID location on CoT plots
-
-
-% Paragraph 2. Future work
-%  - Will examine GRFs and ground contact patterns to compare w/ horse paper
-%  - Will compare leg angle to passive walking/SLIP models
-% That's good enough. Done. No time or space to write much more.
-The framework developed has been studied under elliptical pattern with emphasis on the fore lag and period of gait. Given the same path trajectory for all gaits, the optimal gait parameters for left/right symmetry was a 0.58s period with a phase offset of 1.1$\pi$ while left/right anti-symmetry had an optimal gait at a 0.33s period and 0.9$\pi$ offset, corresponding to a bounding and trotting gait, respectively. Frames showing each gait are given in \cref{fig:sym_gait,fig:asym_gait}. In Hildebrand's study, horse footfalls were shown throughout a stride in several types of gaits. In running trots, the phase offset between the fore and rear legs was approximately $\pi$, which is similar to the \emph{Minitaur}'s optimal gait of 0.9 $\pi$ phase offset \autocite{Hildebrand701}. 
+Given the same foot trajectories and tracking controllers for all gaits, the most energetically optimal symmetric gait was found at a period of 0.58 [\si{\s}] with a phase offset of 1.1$\pi$ [\si{\radian}]. These parameter values correspond to a bound-like gait. Among the anti-symmetric gaits, the most energetically optimal had a period of 0.33 [\si{\s}] and a 0.9$\pi$ [\si{\radian}] offset, corresponding to a trot. Still frames showing the phases of these gaits are given in \cref{fig:sym_gait,fig:asym_gait}. In Hildebrand's study, horse footfalls were shown throughout a stride in several types of gaits. In running trots, the phase offset between the fore and rear legs was approximately $\pi$, which is similar to the \emph{Minitaur}'s optimal gait of 0.9$\pi$ phase offset \autocite{Hildebrand701}. 
 
 \begin{figure}[t!]
     \centering
@@ -262,7 +258,7 @@ The framework developed has been studied under elliptical pattern with emphasis 
         \includegraphics[width=\textwidth]{symm_snap4}
         \caption{State 4}
     \end{subfigure}%
-    \caption{Sample symmetric gait with \emph{period} $0.58 s$, \emph{lag} $1.12\pi$.}
+    \caption{Sample symmetric gait with \emph{period} $0.58 s$, \emph{lag} $1.12\pi$}
     \label{fig:sym_gait}
 \end{figure}
 
@@ -284,22 +280,26 @@ The framework developed has been studied under elliptical pattern with emphasis 
         \includegraphics[width=\textwidth]{asymm_snap4}
         \caption{State 4}
     \end{subfigure}%
-    \caption{Sample asymmetric gait with \emph{period} $0.33 s$, \emph{lag} $0.9\pi$.}
+    \caption{Sample asymmetric gait with \emph{period} $0.33 s$, \emph{lag} $0.9\pi$}
     \label{fig:asym_gait}
 \end{figure}
 
 \subsection{Limitations}
-The CoT for our models were much higher than in biological systems. The minimum CoT that we found were 34.6 for left/right symmetric gaits and 11.5 for anti-symmetric gaits while biological systems tend to have CoT values around 0.1-0.15. These inefficiencies from the simulation could have come from poor tuning of the motor controllers. Because we were interested in energy cost due to different gait parameters, we did not optimize the PID gains for the motor controller. Due to the speed of the simulator, we were limited in the number of parameters that we could choose to search. We decided that leg timing was more important than path trajectory for gait generation, so we selected leg timing parameters to optimize. 
+The optimal CoT values determined for our models were significantly higher than in biological systems. The minimum CoT discovered by the procedure reported here for the \emph{Minitaur} was 34.6 for left/right symmetric gaits and 11.5 for anti-symmetric gaits while biological systems tend to have CoT values near 0.1-0.15. These high CoT values are not unrealistic for robotic systems, particularly those with direct-drive actuation. However, poor tuning of the foot trajectory tracking controllers could have also contributed to making the gait energetics suboptimal.
+
+The use of CMA-ES for sampling gait parameters proved to be significantly more effective than the brute-force method used previously. However, the optimization approach did yield some additional difficulties in effectively covering the desired space without becoming trapped in local minima. For the results presented here, multiple runs of CMA-ES with different initial conditions were collected and combined as needed.
 
 \subsection{Future Directions}
-Because gaits have different optimal path trajectories, we plan to optimize the elliptical path trajectories at the optimal parameters for period and phase offsets found also using CMA-ES.
-We plan to extend the study by developing realistic foot trajectory patterns observed in quadrupeds to achieve results that are in correlation with ground reaction forces observed in quadrupeds. We also plan to use impedance control rather than position control for the motors. Lastly, we want to look into developing more advanced control architectures in order to improve robustness to uncertainty and disturbances in the environment. 
-
+Ultimately it is desired to use the initial results presented above and the gait generation process as a whole to identify any invariant correlations between quadruped morphology and preferred gaits. This would require an extension to the study in which gait CoT measurements like the ones presented in this work would be repeated for prototypical quadrupeds of varying morphological dimensions. Additionally, future work might also consider evaluation of robustness as an additional metric on gaits. It has been hypothesized that efficient gaits should also have some qualities of robustness, perhaps with regard to imperfections in terrain. The infrastructure developed for this work could be adapted to investigate gait robustness as well.
 
 % use section* for acknowledgment
 \section*{Acknowledgment}
 
-The author would like to thank Professor Chris Atkeson for overseeing this independent study, as well as Thu Nguyen (formerly a graduate student at CMU, presently at Stanford) for her previous contributions to the project. Additionally, the author would also like to acknowledge Ghost Robotics LLC for supporting this work by providing design files of the \emph{Minitaur} robot platform for this work. 
+The author would like to thank Professor Chris Atkeson for overseeing this independent study, as well as Thu Nguyen (formerly a graduate student at CMU, presently at Stanford) for her previous contributions to the project. Additionally, the author would also like to acknowledge Ghost Robotics LLC for supporting this work by providing design files of the \emph{Minitaur} robot platform. 
+
+\appendix
+\section{Project Repository}
+In the spirit of open-access distribution of scientific results, all files associated with this project have been made freely available at the following git repository: \url{https://github.com/rustechs/16-995-indep-study/}
 
 % references section
 \nocite{*}
